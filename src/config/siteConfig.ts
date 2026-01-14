@@ -101,10 +101,10 @@ export const siteConfig: SiteConfig = {
 	generateOgImages: false,
 
 	// bangumi配置
-	bangumi: {
+	/* bangumi: {
 		// Bangumi用户ID
 		userId: "1163581",
-	},
+	}, */
 
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404
 	// bangumi的数据为编译时获取的，所以不是实时数据，请配置bangumi.userId
