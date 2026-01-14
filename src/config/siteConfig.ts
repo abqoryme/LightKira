@@ -13,15 +13,15 @@ export const siteConfig: SiteConfig = {
 	subtitle: "The Personal Blogs Ahmad Abqory",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn/",
+	site_url: "https://light-kira.vercel.app",
 
 	// 站点描述
-	description: "Neko is a fresh, elegant, and modern personal blog theme built on the Astro framework, Fuwari template and the Firefly template, designed specifically for tech enthusiasts and content creators.",
+	description: "Neko is a fresh, elegant, and modern personal blog theme built on the Astro framework, Fuwari template and the Firefly template, designed specifically for tech enthusiasts and content creators. ",
 	
 	// 站点关键词
 	keywords: [
-		"Neko",
 		"Firefly",
+		"Neko",
 		"Fuwari",
 		"Astro",
 		"ACGN",
