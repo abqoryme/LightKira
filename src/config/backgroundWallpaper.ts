@@ -24,17 +24,17 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "안녕하세요!",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"In Frozen Silence, I Once Dreamt",
+				"From Burning Nebulae, I First Wake",
+				"Amidst Drifting Dust, I Slowly Drift",
+				"Upon Ancient Starlight, I Now Reach",
+				"From Dying Embers, I Again Rise",
+				"In Eternal Cosmos, I Ever Shine",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
