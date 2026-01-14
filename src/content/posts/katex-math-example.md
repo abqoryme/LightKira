@@ -1,26 +1,26 @@
 ---
-title: KaTeX 数学公式示例
+title: Contoh Rumus Matematika KaTeX
 published: 1970-01-02
-description: 展示 Firefly 主题对 KaTeX 数学公式的支持，包括行内公式、块级公式和复杂数学符号。
-tags: [KaTeX, Math, 示例]
-category: 文章示例
+description: Menampilkan dukungan tema Neko terhadap rumus matematika KaTeX, termasuk rumus inline, blok, dan simbol matematika kompleks.
+tags: [KaTeX, Math, Contoh]
+category: Contoh Artikel
 draft: false
 image: api
 ---
 
-本文展示了 [Firefly](https://github.com/CuteLeaf/Firefly) 主题对 KaTeX 数学公式的渲染支持。
+Artikel ini menampilkan dukungan rendering rumus matematika KaTeX pada tema [Neko](https://github.com/CuteLeaf/Firefly).
 
-## 行内公式 (Inline)
+## Rumus Inline (Dalam Baris)
 
-行内公式使用单个 `$` 符号包裹。
+Rumus inline menggunakan sepasang simbol `$` untuk membungkus teks.
 
-例如：欧拉公式 $e^{i\pi} + 1 = 0$ 是数学中最优美的公式之一。
+Contoh: Rumus Euler $e^{i\pi} + 1 = 0$ adalah salah satu rumus terindah dalam matematika.
 
-质能方程 $E = mc^2$ 也是家喻户晓。
+Persamaan massa-energi $E = mc^2$ juga sudah sangat dikenal luas.
 
-## 块级公式 (Block)
+## Rumus Blok (Block)
 
-块级公式使用两个 `$$` 符号包裹，会居中显示。
+Rumus blok menggunakan dua simbol `$$` untuk membungkus teks, dan akan ditampilkan di tengah baris (centered).
 
 $$
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
@@ -30,9 +30,9 @@ $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
 
-## 复杂示例
+## Contoh Kompleks
 
-### 矩阵 (Matrices)
+### Matriks (Matrices)
 
 $$
 \begin{pmatrix}
@@ -49,7 +49,7 @@ c\alpha + d\gamma & c\beta + d\delta
 \end{pmatrix}
 $$
 
-### 极限与求和 (Limits and Sums)
+### Limit dan Penjumlahan (Limits and Sums)
 
 $$
 \sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
@@ -59,7 +59,7 @@ $$
 \lim_{x \to 0} \frac{\sin x}{x} = 1
 $$
 
-### 麦克斯韦方程组 (Maxwell's Equations)
+### Persamaan Maxwell (Maxwell's Equations)
 
 $$
 \begin{aligned}
@@ -70,22 +70,22 @@ $$
 \end{aligned}
 $$
 
-### 化学方程式 (Chemical Equations)
+### Persamaan Kimia (Chemical Equations)
 
 $$
 \ce{CH4 + 2O2 -> CO2 + 2H2O}
 $$
 
-## 更多符号
+## Simbol Lainnya
 
-| 符号 | 代码 | 渲染结果 |
+| Simbol | Kode | Hasil Render |
 | :--- | :--- | :--- |
 | Alpha | `\alpha` | $\alpha$ |
 | Beta | `\beta` | $\beta$ |
 | Gamma | `\Gamma` | $\Gamma$ |
 | Pi | `\pi` | $\pi$ |
 | Infinity | `\infty` | $\infty$ |
-| Right Arrow | `\rightarrow` | $\rightarrow$ |
-| Partial | `\partial` | $\partial$ |
+| Panah Kanan | `\rightarrow` | $\rightarrow$ |
+| Parsial | `\partial` | $\partial$ |
 
-更多 KaTeX 语法请参考 [KaTeX Supported Functions](https://katex.org/docs/supported.html)。
+Untuk sintaks KaTeX lebih lanjut, silakan merujuk pada [KaTeX Supported Functions](https://katex.org/docs/supported.html).
