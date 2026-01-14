@@ -17,8 +17,8 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"Neko is a fresh, elegant, and modern personal blog theme built on the Astro framework, Fuwari template and the Firefly template, designed specifically for tech enthusiasts and content creators.",
-
+  		"Neko is a fresh, elegant, and modern personal blog theme built on the Astro framework, Fuwari template and the Firefly template, designed specifically for tech enthusiasts and content creators.",
+	
 	// 站点关键词
 	keywords: [
 		"Neko",
