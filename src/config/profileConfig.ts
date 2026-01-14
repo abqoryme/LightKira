@@ -19,7 +19,7 @@ export const profileConfig: ProfileConfig = {
 	link: [
 		{
 			name: "Instagram",
-			icon: "fa6-brands:instagram",
+			icon: "fa6-brands:bilibili",
 			url: "https://www.instagram.com/ahmadabkorimudabig",
 			showName: false,
 		},
