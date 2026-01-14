@@ -7,20 +7,21 @@ const SITE_LANG = "en";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "Neko",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "The Personal Blogs Ahmad Abqory",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://light-kira.vercel.app",
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"Neko is a fresh, elegant, and modern personal blog theme built on the Astro framework, Fuwari template and the Firefly template, designed specifically for tech enthusiasts and content creators.",
 
 	// 站点关键词
 	keywords: [
+		"Neko",
 		"Firefly",
 		"Fuwari",
 		"Astro",
@@ -71,7 +72,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly",
+		title: "Neko",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 		widthFull: false,
 		// 导航栏图标和标题是否跟随主题色
