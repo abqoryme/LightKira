@@ -20,7 +20,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 自定义导航栏链接,并且支持多级菜单
 	links.push({
-		name: "链接",
+		name: "Links",
 		url: "/links/",
 		icon: "material-symbols:link",
 
@@ -33,10 +33,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa6-brands:github",
 			},
 			{
-				name: "Bilibili",
-				url: "https://space.bilibili.com/38932988",
+				name: "Telegram",
+				url: "https://t.me/Suggoikawai",
 				external: true,
-				icon: "fa6-brands:bilibili",
+				icon: "fa6-brands:telegram",
 			},
 		],
 	});
@@ -51,7 +51,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 关于及其子菜单
 	links.push({
-		name: "关于",
+		name: "About",
 		url: "/content/",
 		icon: "material-symbols:info",
 		children: [
