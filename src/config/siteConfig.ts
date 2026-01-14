@@ -63,11 +63,11 @@ export const siteConfig: SiteConfig = {
 		// 导航栏Logo
 		// 支持三种类型：Astro图标库，本地图片，网络图片
 		// { type: "icon", value: "material-symbols:home-pin-outline" }
-		// { type: "image", value: "/assets/images/logo.webp", alt: "Firefly Logo" }
-		// { type: "image", value: "https://example.com/logo.png", alt: "Firefly Logo" }
+		// { type: "image", value: "/assets/images/logo.webp", alt: "Neko Logo" }
+		// { type: "image", value: "https://example.com/logo.png", alt: "Neko Logo" }
 		logo: {
 			type: "image",
-			value: "/assets/images/firefly.png",
+			value: "/assets/images/cat.png",
 			alt: "🍀",
 		},
 		// 导航栏标题
