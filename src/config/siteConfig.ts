@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "The Personal Blogs Ahmad Abqory",
 
 	// 站点 URL
-	site_url: "https://light-kira.vercel.app",
+	site_url: "https://firefly.cuteleaf.cn/",
 
 	// 站点描述
 	description:
