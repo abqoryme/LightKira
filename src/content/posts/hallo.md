@@ -3,7 +3,7 @@ title: Siapa itu Ahmad Abqory?
 published: 2026-03-15
 pinned: true
 description: Kepo ga ama Author Ganteng Dan Baik Ini? 😸
-tags: [ITSME, WHO?]
+tags: [ITSME, WHO]
 category: "Pengenalan"
 licenseName: "ABS_LS"
 author: ahmad_abqory
