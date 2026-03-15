@@ -9,6 +9,7 @@ licenseName: "ABS_LS"
 author: ahmad_abqory
 sourceLink: "https://github.com/abqoryme"
 draft: false
+image: https://images3.alphacoders.com/131/thumb-1920-1319293.jpeg
 ---
 
 Assalaamu'alaikum Warahmatullahi Wabarakatuh. Hallo semua perkenalkan nama gua Ahmad Abqory Mudabighi asal dari Kota Bogor, Provinsi Jawa Barat, Kecamatan Sukajaya. Kalian bisa memanggil gua abqory, Dan yap udah segitu aja perkenalan dari gua hahah. Sekian dan terima gaji eh <u>Terima Kasih</u> 😂
