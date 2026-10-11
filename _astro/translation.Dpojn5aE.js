@@ -1,0 +1,1 @@
+import{s as o}from"./navBarConfig.C7ghMGOZ.js";import{i as e,r as s,j as t,z as i,a as u,e as n}from"./id.LQSPU2PI.js";const _=n,c={en:n,en_us:n,en_gb:n,en_au:n,zh_cn:u,zh_tw:i,ja:t,ja_jp:t,ru:s,ru_ru:s,id:e};function f(a){return c[a.toLowerCase()]||_}function m(a){const r=o.lang||"en";return f(r)[a]}export{m as i};
