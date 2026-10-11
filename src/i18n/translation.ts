@@ -5,6 +5,7 @@ import { ja } from "./languages/ja";
 import { ru } from "./languages/ru";
 import { zh_CN } from "./languages/zh_CN";
 import { zh_TW } from "./languages/zh_TW";
+import { id } from "./languages/id";
 
 export type Translation = {
 	[K in I18nKey]: string;
@@ -23,6 +24,7 @@ const map: { [key: string]: Translation } = {
 	ja_jp: ja,
 	ru: ru,
 	ru_ru: ru,
+	id: id,
 };
 
 export function getTranslation(lang: string): Translation {
