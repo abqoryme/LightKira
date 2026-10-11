@@ -1,0 +1,543 @@
+import Key from "../i18nKey";
+import type { Translation } from "../translation";
+
+export const id: Translation = {
+	[Key.home]: "Beranda",
+	[Key.about]: "Tentang",
+	[Key.archive]: "Arsip",
+	[Key.search]: "Pencarian",
+	[Key.searchNoResults]: "Tidak ada hasil yang ditemukan.",
+	[Key.searchTypeSomething]: "Ketik kata yang ingin dicari...",
+	[Key.searchLoading]: "Sedang mencari...",
+	[Key.searchSummary]: "Ringkasan",
+	[Key.searchContent]: "Isi",
+	[Key.searchViewMore]: "Lihat hasil lainnya ({count} hasil lagi)",
+	[Key.other]: "Lainnya",
+
+	// Navbar menu groups
+	[Key.navArticles]: "Artikel",
+	[Key.navSocial]: "Sosial",
+	[Key.navMine]: "Diriku",
+	[Key.navAbout]: "Tentang",
+	[Key.navLinks]: "Tautan",
+	[Key.all]: "Semua",
+
+	[Key.tags]: "Tanda",
+	[Key.categories]: "Golongan",
+	[Key.allCategories]: "Semua Golongan",
+	[Key.allTags]: "Semua Tanda",
+	[Key.allSeries]: "Semua Rangkaian",
+	[Key.recentPosts]: "Tulisan Sebelumnya",
+	[Key.postList]: "Daftar Tulisan",
+	[Key.tableOfContents]: "Daftar Isi",
+	[Key.tocEmpty]: "Tidak ada daftar isi di halaman ini",
+	[Key.music]: "Musik",
+	[Key.dynamic]: "Kenangan",
+	[Key.latestDynamics]: "Kenangan Terbaru",
+	[Key.moreDynamics]: "Kenangan Lainnya",
+	[Key.dynamicDescription]: "Catatan singkat tentang pikiran dan keseharian.",
+	[Key.dynamicEmpty]: "Belum ada kenangan yang dibagikan",
+	[Key.dynamicSearch]: "Cari kenangan...",
+	[Key.dynamicNoResults]: "Tidak ada kenangan yang cocok.",
+	[Key.dynamicLoading]: "Sedang memuat kenangan...",
+	[Key.dynamicAllYears]: "Semua tahun",
+	[Key.dynamicLoadMore]: "Tampilkan lainnya",
+	[Key.dynamicBackToList]: "Kembali ke daftar kenangan",
+	[Key.dynamicProfile]: "Lihat profil {name}",
+	[Key.dynamicPermalink]: "Tautan tetap untuk kenangan ini",
+	[Key.dynamicCollapseGallery]: "Perkecil tampilan",
+	[Key.dynamicViewOriginal]: "Lihat ukuran penuh",
+	[Key.dynamicPreviousImage]: "Gambar sebelumnya",
+	[Key.dynamicNextImage]: "Gambar berikutnya",
+	[Key.dynamicViewImage]: "Lihat gambar {index}",
+	[Key.dynamicSelectImage]: "Pilih gambar {index}",
+	[Key.musicNoPlaying]: "Tidak ada yang sedang diputar",
+	[Key.musicLyrics]: "Lirik",
+	[Key.musicVolume]: "Volume",
+	[Key.musicPlayMode]: "Ubah cara pemutaran",
+	[Key.musicPrev]: "Sebelumnya",
+	[Key.musicNext]: "Berikutnya",
+	[Key.musicPlaylist]: "Daftar lagu",
+	[Key.musicNoLyrics]: "Lirik tidak tersedia",
+	[Key.musicLoadingLyrics]: "Memuat lirik...",
+	[Key.musicFailedLyrics]: "Gagal memuat lirik",
+	[Key.musicNoSongs]: "Tidak ada lagu",
+	[Key.musicError]: "Kesalahan Pemutar",
+	[Key.musicPlay]: "Putar",
+	[Key.musicPause]: "Jeda",
+	[Key.musicProgress]: "Kemajuan pemutaran",
+	[Key.musicCover]: "Sampul",
+	[Key.musicNoCover]: "Sampul tidak tersedia",
+	[Key.musicAudioPlayer]: "Pemutar suara",
+
+	// Announcement
+	[Key.announcement]: "Pengumuman",
+	[Key.announcementClose]: "Tutup",
+
+	[Key.comments]: "Tanggapan",
+	[Key.commentSection]: "Tanggapan",
+	[Key.commentSubtitle]: "Ceritakan pendapatmu dan berbincanglah dengan siapa saja.",
+	[Key.commentNotConfigured]: "Fitur tanggapan belum diatur.",
+	[Key.guestbookCommentHint]:
+		"Kamu belum mengaktifkan fitur tanggapan pada berkas pengaturan. Setelah diaktifkan, pengunjung dapat meninggalkan pesan di sini.",
+	[Key.friends]: "Teman",
+	[Key.friendsDescription]:
+		"Inilah teman-teman saya. Silakan mampir dan saling menyapa.",
+	[Key.searchFriends]: "Cari teman...",
+	[Key.friendsEmpty]: "Belum ada teman.",
+	[Key.booknav]: "Kumpulan Tautan Pilihan",
+	[Key.booknavDescription]:
+		"Kumpulan tautan ke situs berguna yang dikelompokkan menurut kegunaannya.",
+	[Key.searchBooknav]: "Cari tautan...",
+	[Key.booknavEmpty]: "Belum ada tautan pilihan.",
+
+	// Project showcase
+	[Key.projects]: "Karya",
+	[Key.projectsDescription]: "Berikut beberapa karya yang telah saya buat.",
+	[Key.projectDetails]: "Lihat keterangan",
+	[Key.projectBack]: "Kembali ke daftar karya",
+	[Key.projectEmpty]: "Belum ada karya.",
+	[Key.projectSearch]: "Cari karya...",
+	[Key.projectStatusPlanning]: "Perencanaan",
+	[Key.projectStatusDeveloping]: "Sedang Dikerjakan",
+	[Key.projectStatusPublished]: "Telah Diterbitkan",
+	[Key.projectStatusArchived]: "Disimpan dalam arsip",
+	[Key.guestbook]: "Buku Tamu",
+	[Key.guestbookDescription]:
+		"Tinggalkan pesan, pendapat, atau saranmu di sini.",
+	[Key.untitled]: "Tanpa Judul",
+	[Key.uncategorized]: "Belum Dikelompokkan",
+	[Key.noTags]: "Belum Ada Tanda",
+
+	[Key.wordCount]: "kata",
+	[Key.wordsCount]: "kata",
+	[Key.minuteCount]: "menit",
+	[Key.minutesCount]: "menit",
+	[Key.postCount]: "tulisan",
+	[Key.postsCount]: "tulisan",
+	[Key.tagsCount]: "tanda",
+	[Key.noData]: "Belum ada data",
+
+	[Key.themeColor]: "Warna Tampilan",
+
+	[Key.lightMode]: "Terang",
+	[Key.darkMode]: "Gelap",
+	[Key.systemMode]: "Sistem",
+
+	[Key.more]: "Lainnya",
+	[Key.collapse]: "Perkecil tampilan",
+
+	[Key.author]: "Pengarang",
+	[Key.publishedAt]: "Diterbitkan pada",
+	[Key.updatedAt]: "Terakhir diubah pada",
+	[Key.readTime]: "Lama membaca",
+	[Key.license]: "Lisensi",
+	[Key.bangumi]: "Bangumi",
+
+	// Bangumi Filter and Status Text
+	[Key.bangumiTitle]: "Daftar Tontonan dan Bacaan Saya",
+	[Key.bangumiSubtitle]: "Catatan tentang anime, komik, dan permainan yang saya ikuti.",
+	[Key.bangumiFilterAll]: "Semua",
+	[Key.bangumiFilterWatched]: "Sudah Ditonton",
+	[Key.bangumiFilterWatching]: "Sedang Ditonton",
+	[Key.bangumiFilterWish]: "Ingin Ditonton",
+	[Key.bangumiFilterOnHold]: "Ditunda",
+	[Key.bangumiFilterDropped]: "Dihentikan",
+	[Key.bangumiFilterGamePlayed]: "Sudah Dimainkan",
+	[Key.bangumiFilterGamePlaying]: "Sedang Dimainkan",
+	[Key.bangumiFilterGameWish]: "Ingin Dimainkan",
+	[Key.bangumiFilterBookRead]: "Sudah Dibaca",
+	[Key.bangumiFilterBookReading]: "Sedang Dibaca",
+	[Key.bangumiFilterBookWish]: "Ingin Dibaca",
+	[Key.bangumiFilterMusicListened]: "Sudah Didengarkan",
+	[Key.bangumiFilterMusicListening]: "Sedang Didengarkan",
+	[Key.bangumiFilterMusicWish]: "Ingin Didengarkan",
+	[Key.bangumiStatusWish]: "Ingin Ditonton",
+	[Key.bangumiStatusWatched]: "Sudah Ditonton",
+	[Key.bangumiStatusWatching]: "Sedang Ditonton",
+	[Key.bangumiStatusOnHold]: "Ditunda",
+	[Key.bangumiStatusDropped]: "Dihentikan",
+	[Key.bangumiStatusGameWish]: "Ingin Dimainkan",
+	[Key.bangumiStatusGamePlayed]: "Sudah Dimainkan",
+	[Key.bangumiStatusGamePlaying]: "Sedang Dimainkan",
+	[Key.bangumiStatusBookWish]: "Ingin Dibaca",
+	[Key.bangumiStatusBookRead]: "Sudah Dibaca",
+	[Key.bangumiStatusBookReading]: "Sedang Dibaca",
+	[Key.bangumiStatusMusicWish]: "Ingin Didengarkan",
+	[Key.bangumiStatusMusicListened]: "Sudah Didengarkan",
+	[Key.bangumiStatusMusicListening]: "Sedang Didengarkan",
+	[Key.bangumiStatusUnknown]: "Tidak Diketahui",
+	[Key.bangumiNoData]: "Tidak Ada Data",
+	[Key.bangumiNoDataDescription]: "Tidak ada item dalam kategori ini",
+	[Key.bangumiEmpty]: "Tidak Ada Data",
+	[Key.bangumiEmptyReason]:
+		"Kemungkinan penyebab: nama pengguna tidak ada, masalah koneksi jaringan, atau batas API",
+	[Key.bangumiFetchError]: "Tidak Berhasil Memuat Data Bangumi",
+	[Key.bangumiFetchErrorDesc]:
+		"Data dari API Bangumi tidak berhasil dimuat saat halaman disiapkan. Untuk sementara, halaman ini tidak dapat dibuka.",
+	[Key.bangumiUsername]: "Nama Pengguna",
+	[Key.bangumiApi]: "API",
+	[Key.bangumiConfigTip]:
+		"Petunjuk: Pastikan nama pengguna Bangumi di pengaturan halaman sudah benar.",
+	[Key.bangumiPrevPage]: "Sebelumnya",
+	[Key.bangumiNextPage]: "Berikutnya",
+	[Key.bangumiCurrentPage]: "Halaman",
+	[Key.bangumiTotalPages]: "dari",
+	[Key.bangumiPage]: "halaman",
+
+	// Bangumi Categories
+	[Key.bangumiCategoryBook]: "Buku",
+	[Key.bangumiCategoryAnime]: "Anime",
+	[Key.bangumiCategoryMusic]: "Musik",
+	[Key.bangumiCategoryGame]: "Game",
+	[Key.bangumiCategoryReal]: "Dunia Nyata",
+
+	// Bangumi Data Update
+	[Key.bangumiLastUpdated]: "Data terakhir diperbarui pada",
+	[Key.bangumiUpdatedAt]: "Waktu Penyusunan",
+	[Key.bangumiDataStatic]: "Data Tetap",
+
+	// VNDB
+	[Key.vndb]: "VNDB",
+	[Key.vndbSubtitle]: "Daftar novel visual saya dari VNDB.",
+	[Key.vndbFilterAll]: "Semua",
+	[Key.vndbFilterVoted]: "Sudah Diberi Nilai",
+	[Key.vndbFilterUnvoted]: "Belum Diberi Nilai",
+	[Key.vndbFilterNotes]: "Memiliki catatan",
+	[Key.vndbStatusWishlist]: "Daftar Keinginan",
+	[Key.vndbStatusPlaying]: "Sedang Dimainkan",
+	[Key.vndbStatusFinished]: "Selesai",
+	[Key.vndbStatusStalled]: "Terhenti",
+	[Key.vndbStatusDropped]: "Dihentikan",
+	[Key.vndbStatusUnknown]: "Tidak Diketahui",
+	[Key.vndbNoData]: "Tidak Ada Data",
+	[Key.vndbNoDataDescription]: "Tidak ada item dalam kategori ini",
+	[Key.vndbEmpty]: "Tidak Ada Data",
+	[Key.vndbEmptyReason]:
+		"Kemungkinan penyebab: ID pengguna tidak ada, daftar bersifat privat, masalah jaringan, atau batas API",
+	[Key.vndbFetchError]: "Tidak Berhasil Memuat Data VNDB",
+	[Key.vndbFetchErrorDesc]:
+		"Data dari API VNDB tidak berhasil dimuat saat halaman disiapkan. Untuk sementara, halaman ini tidak dapat dibuka.",
+	[Key.vndbNotConfigured]: "ID Pengguna VNDB Belum Dikonfigurasi",
+	[Key.vndbNotConfiguredDesc]:
+		"Silakan konfigurasi ID pengguna VNDB di src/config/siteConfig.ts",
+	[Key.vndbLastUpdated]: "Data terakhir diperbarui pada",
+	[Key.vndbVotes]: "suara",
+	[Key.vndbLengthVeryShort]: "Sangat pendek",
+	[Key.vndbLengthShort]: "Pendek",
+	[Key.vndbLengthMedium]: "Sedang",
+	[Key.vndbLengthLong]: "Panjang",
+	[Key.vndbLengthVeryLong]: "Sangat panjang",
+
+	// Anime Tracking - Bilibili
+	[Key.bilibili]: "Bilibili",
+	[Key.bilibiliSubtitle]: "Daftar anime dan drama yang saya ikuti di Bilibili.",
+	[Key.bilibiliNotConfigured]: "Bilibili belum dikonfigurasi",
+	[Key.bilibiliNotConfiguredDesc]:
+		"Konfigurasikan bilibili.uid di src/config/siteConfig.ts",
+
+	// Anime Tracking - Shared components
+	[Key.animeTotal]: "Total",
+	[Key.animeAverageRating]: "Nilai Rata-rata",
+	[Key.animeSearch]: "Cari anime...",
+	[Key.animeAllTypes]: "Semua",
+	[Key.animeTV]: "Anime TV",
+	[Key.animeMovie]: "Film",
+	[Key.animeRatingDesc]: "Nilai Tertinggi",
+	[Key.animeRatingAsc]: "Nilai Terendah",
+	[Key.animeDateDesc]: "Terbaru",
+	[Key.animeDateAsc]: "Terlama",
+	[Key.animeNoResults]: "Tidak ditemukan anime yang cocok",
+	[Key.animeLastUpdated]: "Data terakhir diperbarui pada",
+	[Key.animeEpStatus]: "Kemajuan",
+	[Key.animeViewDetails]: "Lihat Keterangan",
+	[Key.animeBilibiliAvg]: "Nilai Rata-rata Bilibili",
+	[Key.animeNoOverview]: "Sinopsis belum tersedia.",
+	[Key.animeClose]: "Tutup",
+	[Key.animeSynopsis]: "Sinopsis",
+	[Key.animeWatchNow]: "Mulai Menonton",
+	[Key.animeAllWithCount]: "Semua ({count})",
+	[Key.animeTVWithCount]: "TV ({count})",
+	[Key.animeMovieWithCount]: "Film ({count})",
+	[Key.animeTypeAnime]: "Anime",
+	[Key.animeTypeMovie]: "Film",
+	[Key.animeTypeDocumentary]: "Dokumenter",
+	[Key.animeTypeChinese]: "Animasi Tiongkok",
+	[Key.animeTypeDrama]: "Drama",
+	[Key.animeTypeConcert]: "Konser",
+
+	// MyAnimeList
+	[Key.mal]: "MyAnimeList",
+	[Key.malSubtitle]: "Daftar anime dan manga saya dari MyAnimeList",
+	[Key.malCategoryAnime]: "Anime",
+	[Key.malCategoryManga]: "Manga",
+	[Key.malFilterAll]: "Semua",
+	[Key.malStatusWatching]: "Sedang Ditonton",
+	[Key.malStatusReading]: "Sedang Dibaca",
+	[Key.malStatusCompleted]: "Selesai",
+	[Key.malStatusOnHold]: "Ditunda",
+	[Key.malStatusDropped]: "Dihentikan",
+	[Key.malStatusPlanToWatch]: "Ingin Ditonton",
+	[Key.malStatusPlanToRead]: "Ingin Dibaca",
+	[Key.malNoData]: "Tidak Ada Data",
+	[Key.malNoDataDescription]: "Tidak ada item dalam kategori ini",
+	[Key.malEmpty]: "Tidak Ada Data",
+	[Key.malEmptyReason]:
+		"Kemungkinan penyebab: nama pengguna tidak ada, daftar bersifat privat, Client ID tidak valid, atau masalah jaringan",
+	[Key.malFetchError]: "Gagal Mengambil Data MyAnimeList",
+	[Key.malFetchErrorDesc]:
+		"Gagal mengambil data dari API MyAnimeList saat proses build. Periksa nama pengguna dan Client ID, serta pastikan daftarnya bersifat publik.",
+	[Key.malNotConfigured]: "MyAnimeList Belum Dikonfigurasi",
+	[Key.malNotConfiguredDesc]:
+		"Silakan konfigurasi nama pengguna MyAnimeList dan Client ID di src/config/siteConfig.ts. Daftar harus bersifat publik.",
+	[Key.malLastUpdated]: "Data terakhir diperbarui pada",
+	[Key.malSeasonWinter]: "Musim Dingin",
+	[Key.malSeasonSpring]: "Musim Semi",
+	[Key.malSeasonSummer]: "Musim Panas",
+	[Key.malSeasonFall]: "Musim Gugur",
+
+	// Pagination
+	[Key.paginationFirst]: "Pertama",
+	[Key.paginationPrev]: "Sebelumnya",
+	[Key.paginationNext]: "Berikutnya",
+	[Key.paginationLast]: "Terakhir",
+	[Key.paginationPage]: "Halaman",
+	[Key.paginationOf]: "dari",
+	[Key.paginationTotal]: ", Total",
+	[Key.paginationRecords]: " rekaman",
+	[Key.paginationJump]: "Buka halaman",
+
+	// 404 Page
+	[Key.notFound]: "404",
+	[Key.notFoundTitle]: "Halaman Tidak Ditemukan",
+	[Key.notFoundDescription]:
+		"Maaf, halaman yang kamu kunjungi tidak ada atau telah dipindahkan.",
+	[Key.backToHome]: "Kembali ke Beranda",
+
+	// RSS Page
+	[Key.rss]: "Siaran RSS",
+	[Key.rssDescription]: "Ikuti pembaruan terbaru",
+	[Key.rssSubtitle]:
+		"Ikuti RSS untuk menerima tulisan dan kabar terbaru secara langsung.",
+	[Key.rssLink]: "Tautan RSS",
+	[Key.rssCopyToReader]: "Salin tautan ini ke aplikasi pembaca RSS.",
+	[Key.rssCopyLink]: "Salin tautan",
+	[Key.rssLatestPosts]: "Tulisan Terbaru",
+	[Key.rssWhatIsRSS]: "Apa itu RSS?",
+	[Key.rssWhatIsRSSDescription]:
+		"RSS (Really Simple Syndication) adalah cara baku untuk menerima pembaruan dari situs. Dengan RSS, kamu dapat:",
+	[Key.rssBenefit1]:
+		"Menerima isi terbaru dari situs tanpa harus membuka situsnya sendiri.",
+	[Key.rssBenefit2]: "Mengumpulkan kabar dari berbagai situs di satu tempat.",
+	[Key.rssBenefit3]: "Tidak melewatkan kabar dan tulisan penting.",
+	[Key.rssBenefit4]: "Membaca dengan nyaman tanpa gangguan iklan.",
+	[Key.rssHowToUse]:
+		"Kamu dapat memakai Feedly, Inoreader, atau aplikasi pembaca RSS lainnya untuk mengikuti situs ini.",
+	[Key.rssCopied]: "Tautan RSS berhasil disalin.",
+	[Key.rssCopyFailed]: "Tautan tidak berhasil disalin. Silakan salin sendiri.",
+
+	// Atom Page
+	[Key.atom]: "Siaran Atom",
+	[Key.atomDescription]: "Ikuti pembaruan terbaru",
+	[Key.atomSubtitle]:
+		"Ikuti Atom untuk menerima tulisan dan kabar terbaru secara langsung.",
+	[Key.atomLink]: "Tautan Atom",
+	[Key.atomCopyToReader]: "Salin tautan ini ke aplikasi pembaca Atom.",
+	[Key.atomCopied]: "Tautan Atom berhasil disalin.",
+
+	// Last Modified Time Card
+	[Key.lastModifiedPrefix]: "Terakhir diubah pada ",
+	[Key.lastModifiedOutdated]: "Sebagian isi mungkin sudah tidak terbaru.",
+	[Key.lastModifiedDaysAgo]: "{days} hari yang lalu",
+	[Key.year]: "tahun",
+	[Key.month]: "bulan",
+	[Key.day]: "hari",
+	[Key.hour]: "jam",
+	[Key.minute]: "menit",
+	[Key.second]: "detik",
+
+	// Page Views Statistics
+	[Key.pageViews]: "Dilihat",
+	[Key.pageViewsLoading]: "Memuat...",
+	[Key.pageViewsError]: "Data hitungan belum tersedia.",
+
+	// Pinned
+	[Key.pinned]: "Diletakkan di bagian atas",
+
+	// Related Posts
+	[Key.relatedPosts]: "Tulisan Terkait",
+	[Key.randomPosts]: "Tulisan Pilihan Acak",
+	[Key.smartRecommend]: "Pilihan Sesuai",
+	[Key.randomRecommend]: "Secara Acak",
+	[Key.noRelatedPosts]: "Tidak ada tulisan terkait.",
+	[Key.noRandomPosts]: "Tidak ada tulisan pilihan acak.",
+
+	// Article Series
+	[Key.series]: "Seri Tulisan",
+	[Key.seriesPartOf]: "Bagian dari seri tulisan",
+	[Key.seriesPart]: "Bagian {n}",
+	[Key.seriesThisArticle]: "Artikel ini",
+	[Key.noSeries]: "Belum ada seri tulisan.",
+
+	// Encrypted
+	[Key.postEncrypted]: "Tulisan ini dikunci dengan penyandian.",
+
+	// Wallpaper Mode
+	[Key.wallpaperMode]: "Mode Gambar Latar",
+	[Key.wallpaperBannerMode]: "Gambar Latar Pita",
+	[Key.wallpaperFullscreenMode]: "Gambar Latar Sepenuh Layar",
+	[Key.fullscreenLayout]: "Susunan Sepenuh Layar",
+	[Key.fullscreenClassicLayout]: "Klasik",
+	[Key.fullscreenHeroLayout]: "Unggulan",
+	[Key.wallpaperOverlayMode]: "Lapisan Gambar Latar",
+	[Key.wallpaperNoneMode]: "Tanpa Gambar Latar",
+
+	// Wallpaper Settings
+	[Key.wallpaperSettings]: "Pengaturan Gambar Latar",
+	[Key.wallpaperTitle]: "Judul Gambar Latar Beranda",
+	[Key.wallpaperCarousel]: "Putaran Gambar Latar",
+	[Key.wavesAnimation]: "Gerak Gelombang",
+	[Key.gradientTransition]: "Peralihan Warna Bertahap",
+	[Key.sakuraEffect]: "Efek Bunga Sakura",
+	[Key.effectsSettings]: "Pengaturan Efek",
+	[Key.overlaySettings]: "Pengaturan Keterlihatan Latar",
+	[Key.overlayOpacity]: "Tingkat Keterlihatan Gambar Latar",
+	[Key.overlayBlur]: "Keburaman Latar Belakang",
+	[Key.overlayCardOpacity]: "Tingkat Keterlihatan Kartu",
+
+	// Settings Panel Tabs
+	[Key.settingsTabAppearance]: "Tampilan",
+	[Key.settingsTabWallpaper]: "Wallpaper",
+	[Key.settingsTabEffects]: "Efek",
+
+	// Card Style
+	[Key.cardSettings]: "Gaya Kartu",
+	[Key.cardBorder]: "Garis Tepi dan Bayangan Kartu",
+	[Key.cardFollowTheme]: "Warna Kartu Mengikuti Tampilan",
+
+	// Post List Layout
+	[Key.postListLayout]: "Susunan Daftar Tulisan",
+	[Key.postListLayoutList]: "Daftar",
+	[Key.postListLayoutGrid]: "Kotak Berjajar",
+
+	// Sponsor Page
+	[Key.sponsor]: "Donasi",
+	[Key.sponsorTitle]: "Dukung Saya",
+	[Key.sponsorDescription]:
+		"Jika tulisan saya bermanfaat bagimu, kamu dapat mendukung saya melalui cara-cara berikut. Dukunganmu menyemangati saya untuk terus berkarya!",
+	[Key.sponsorMethods]: "Cara Pembayaran",
+	[Key.sponsorList]: "Pemberi Dukungan",
+	[Key.sponsorEmpty]: "Belum ada yang memberi dukungan.",
+	[Key.sponsorAmount]: "Banyaknya",
+	[Key.sponsorDate]: "Tanggal",
+	[Key.sponsorMessage]: "Pesan",
+	[Key.sponsorAnonymous]: "Anonim",
+	[Key.scanToSponsor]: "Pindai untuk Memberi Dukungan",
+	[Key.sponsorGoTo]: "Beri Dukungan Sekarang",
+	[Key.sponsorButton]: "Dukung dan Bagikan",
+	[Key.sponsorButtonText]:
+		"Jika tulisan ini membantumu, bagikanlah atau berikan dukungan!",
+
+	[Key.shareOnSocial]: "Bagikan Tulisan",
+	[Key.shareOnSocialDescription]:
+		"Jika tulisan ini bermanfaat bagimu, ceritakan juga kepada orang lain!",
+
+	// Site Statistics
+	[Key.siteStats]: "Angka-angka Situs",
+	[Key.siteStatsPostCount]: "Tulisan",
+	[Key.siteStatsDynamicCount]: "Kenangan",
+	[Key.siteStatsCategoryCount]: "Golongan",
+	[Key.siteStatsTagCount]: "Tanda",
+	[Key.siteStatsTotalWords]: "Jumlah Kata",
+	[Key.siteStatsRunningDays]: "Lama Situs Berjalan",
+	[Key.siteStatsLastUpdate]: "Kegiatan Terakhir",
+	[Key.siteStatsDaysAgo]: "{days} hari yang lalu",
+	[Key.siteStatsDays]: "{days} hari",
+	[Key.today]: "Hari Ini",
+
+	// Site Info
+	[Key.siteInfo]: "Keterangan Situs",
+	[Key.siteInfoBuildTime]: "Waktu Penyusunan",
+	[Key.siteInfoBuildPlatform]: "Tempat Penyusunan",
+	[Key.siteInfoBlogVersion]: "Versi Blog",
+	[Key.siteInfoAstroVersion]: "Versi Astro",
+	[Key.siteInfoNodeVersion]: "Versi Node",
+	[Key.siteInfoPnpmVersion]: "Versi pnpm",
+	[Key.siteInfoSystem]: "Sistem",
+	[Key.siteInfoExpand]: "Tampilkan keterangan penyusunan",
+	[Key.siteInfoCollapse]: "Sembunyikan keterangan penyusunan",
+	[Key.siteInfoDomain]: "Domain",
+	[Key.siteInfoLicense]: "Lisensi",
+
+	// Calendar Component
+	[Key.calendarSunday]: "Min",
+	[Key.calendarMonday]: "Sen",
+	[Key.calendarTuesday]: "Sel",
+	[Key.calendarWednesday]: "Rab",
+	[Key.calendarThursday]: "Kam",
+	[Key.calendarFriday]: "Jum",
+	[Key.calendarSaturday]: "Sab",
+	[Key.calendarJanuary]: "Jan",
+	[Key.calendarFebruary]: "Feb",
+	[Key.calendarMarch]: "Mar",
+	[Key.calendarApril]: "Apr",
+	[Key.calendarMay]: "Mei",
+	[Key.calendarJune]: "Jun",
+	[Key.calendarJuly]: "Jul",
+	[Key.calendarAugust]: "Agu",
+	[Key.calendarSeptember]: "Sep",
+	[Key.calendarOctober]: "Okt",
+	[Key.calendarNovember]: "Nov",
+	[Key.calendarDecember]: "Des",
+	[Key.calendar]: "Kalender Kegiatan Situs",
+	[Key.calendarHeatmapWeek]: "Minggu {week} bulan {month}, {count} postingan",
+	[Key.advertisement]: "Iklan",
+
+	[Key.shareArticle]: "Bagikan",
+	[Key.generatingPoster]: "Membuat Poster...",
+	[Key.copied]: "Disalin",
+	[Key.copyLink]: "Salin tautan",
+	[Key.savePoster]: "Simpan Poster",
+	[Key.scanToRead]: "Pindai untuk Membaca",
+
+	// Code Block Collapsible Configuration
+	[Key.codeCollapsibleShowMore]: "Tampilkan lebih banyak",
+	[Key.codeCollapsibleShowLess]: "Tampilkan lebih sedikit",
+	[Key.codeCollapsibleExpanded]: "Blok kode diperluas",
+	[Key.codeCollapsibleCollapsed]: "Blok kode diciutkan",
+
+	// Gallery Page
+	[Key.gallery]: "Kumpulan Foto",
+	[Key.galleryDescription]: "Mengabadikan kenangan indah dalam kehidupan",
+	[Key.galleryPhotos]: "foto",
+	[Key.galleryAlbums]: "kumpulan foto",
+	[Key.galleryNoAlbums]: "Belum ada album",
+	[Key.galleryBackToAlbums]: "Kembali ke album",
+	[Key.galleryEnterAlbum]: "Buka kumpulan foto",
+	[Key.searchAlbums]: "Cari kumpulan foto...",
+
+	// Password Protection
+	[Key.passwordProtected]: "Dikunci dengan Kata Sandi",
+	[Key.passwordProtectedDesc]:
+		"Bagian ini dikunci dengan kata sandi. Masukkan kata sandi untuk membukanya.",
+	[Key.passwordHint]: "Petunjuk",
+	[Key.passwordPlaceholder]: "Masukkan kata sandi",
+	[Key.passwordSubmit]: "Buka",
+	[Key.passwordError]: "Kata sandi tidak tepat. Coba lagi.",
+	[Key.passwordProtectedRss]:
+		"Tulisan ini dikunci dengan penyandian. Buka situs untuk membacanya.",
+
+	// Background video player
+	[Key.videoPlay]: "Putar video latar belakang",
+	[Key.videoPause]: "Jeda video latar belakang",
+	[Key.videoPrev]: "Video sebelumnya",
+	[Key.videoNext]: "Video berikutnya",
+	[Key.videoLoadError]: "Video gagal dimuat",
+
+	// Immersive Reading
+	[Key.immersiveReading]: "Mode Membaca Mendalam",
+	[Key.enterImmersiveReading]: "Mulai Membaca Mendalam",
+	[Key.exitImmersiveReading]: "Akhiri Membaca Mendalam",
+	[Key.tocExpand]: "Buka daftar isi",
+	[Key.tocCollapse]: "Tutup daftar isi",
+};
