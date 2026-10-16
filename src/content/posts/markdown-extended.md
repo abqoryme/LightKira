@@ -1,254 +1,283 @@
 ---
-title: Fitur Ekstensi Markdown
+title: Markdown 扩展功能
 published: 1970-01-01
-updated: 2026-01-14
-description: "Pelajari fitur Markdown di dalam Neko"
+updated: 1970-01-01
+description: "了解 Firefly 中的 Markdown 功能"
 image: ""
-tags: [Demonstrasi, Contoh, Markdown, Neko]
-category: "Contoh Artikel"
-draft: false
+tags: [演示, 示例, Markdown, Firefly]
+category: "文章示例"
+slug: markdown-extended
+series: "Firefly 功能示例2"
+seriesOrder: 2
 ---
 
-## Kartu Repositori GitHub
+## GitHub 仓库卡片
 
-Anda dapat menambahkan kartu dinamis yang terhubung ke repositori GitHub. Saat halaman dimuat, informasi repositori akan diambil langsung dari GitHub API.
+您可以添加链接到 GitHub 仓库的动态卡片，在页面加载时，仓库信息会从 GitHub API 获取。
 
 ::github{repo="CuteLeaf/Firefly"}
 
-Gunakan kode `::github{repo="CuteLeaf/Firefly"}` untuk membuat kartu repositori GitHub.
+使用代码 `::github{repo="CuteLeaf/Firefly"}` 创建 GitHub 仓库卡片。
 
 ```markdown
 ::github{repo="CuteLeaf/Firefly"}
-
 ```
 
-## Konfigurasi Kotak Peringatan (Admonitions)
+## 提醒框(Admonitions)配置
 
-Neko menggunakan plugin [rehype-callouts](https://github.com/lin-stephanie/rehype-callouts), yang mendukung tiga gaya tema kotak peringatan: `GitHub`, `Obsidian`, dan `VitePress`. Anda dapat mengonfigurasinya di dalam `src/config/siteConfig.ts`:
+Firefly 采用了 [rehype-callouts](https://github.com/lin-stephanie/rehype-callouts) 插件，支持了四种风格的提醒框主题：`GitHub`、`Obsidian`、`VitePress` 和 `Docusaurus`。您可以在 `src/config/siteConfig.ts` 中进行配置：
 
 ```typescript
 // src/config/siteConfig.ts
 export const siteConfig: SiteConfig = {
   // ...
   rehypeCallouts: {
-    // Opsi: "github" | "obsidian" | "vitepress"
+    // 选项: "github" | "obsidian" | "vitepress" | "docusaurus"
     theme: "github",
   },
   // ...
 };
-
 ```
 
-Catatan: **Perubahan konfigurasi memerlukan restart server pengembangan (dev server) agar dapat diterapkan.**
+注意：**更改配置后需要重启开发服务器才能生效。**
 
-Berikut adalah daftar tipe yang didukung oleh masing-masing tema. Setiap gaya tema memiliki desain dan sintaks yang berbeda, Anda dapat memilih sesuai preferensi.
+以下是各个主题支持的类型列表，每个主题风格和语法不同，可根据喜好选择。
 
-### 1. Gaya Tema GitHub
+### 1. GitHub 主题风格
 
-Ini adalah 5 tipe dasar yang didukung secara resmi oleh GitHub.
+这是 GitHub 官方支持的 5 种基本类型。
 
-**Sintaks Dasar**
+![GitHub](./images/github.avif)
+
+**基本语法**
 
 ```markdown
 > [!NOTE] NOTE
-> Menonjolkan informasi yang harus dipertimbangkan pengguna.
+> 突出显示用户应该考虑的信息。
 
 > [!TIP] TIP
-> Informasi opsional untuk membantu pengguna lebih berhasil.
+> 可选信息，帮助用户更成功。
 
 > [!IMPORTANT] IMPORTANT
-> Informasi krusial yang diperlukan agar pengguna berhasil.
+> 用户成功所必需的关键信息。
 
 > [!WARNING] WARNING
-> Konten kritis yang memerlukan perhatian segera.
+> 关键内容，需要立即注意。
 
 > [!CAUTION] CAUTION
-> Konsekuensi negatif potensial dari suatu tindakan.
+> 行动的负面潜在后果。
 
-> [!NOTE] Judul Kustom
-> Ini adalah contoh dengan judul kustom.
-
+> [!NOTE] 自定义标题
+> 这是一个带有自定义标题的示例。
 ```
 
 ---
 
-### 2. Gaya Tema Obsidian
+### 2. Obsidian 主题风格
 
-Gaya [Obsidian](https://obsidian.md/) mendukung sangat banyak tipe dan alias.
+[Obsidian](https://obsidian.md/) 风格支持非常丰富的类型和别名。
 
 <details>
-<summary>Klik untuk membuka daftar sintaks Obsidian</summary>
+<summary>点击展开 Obsidian 语法列表</summary>
 
 ```markdown
+
 > [!NOTE] NOTE
-> Blok catatan umum.
+> 通用的笔记块。
 
 > [!ABSTRACT] ABSTRACT
-> Abstrak dari artikel.
+> 文章的摘要。
 
 > [!SUMMARY] SUMMARY
-> Ringkasan artikel (sama dengan Abstract).
+> 文章的总结（同 Abstract）。
 
 > [!TLDR] TLDR
-> Terlalu panjang, jangan dibaca (sama dengan Abstract).
+> 太长不看（同 Abstract）。
 
 > [!INFO] INFO
-> Memberikan informasi tambahan.
+> 提供额外信息。
 
 > [!TODO] TODO
-> Hal-hal yang perlu diselesaikan.
+> 需要完成的事项。
 
 > [!TIP] TIP
-> Kiat atau petunjuk praktis.
+> 实用技巧或提示。
 
 > [!HINT] HINT
-> Petunjuk (sama dengan Tip).
+> 暗示（同 Tip）。
 
 > [!IMPORTANT] IMPORTANT
-> Informasi penting (Gaya Obsidian biasanya menggunakan ikon serupa).
+> 重要信息（Obsidian 风格通常使用类似的图标）。
 
 > [!SUCCESS] SUCCESS
-> Operasi berhasil.
+> 操作成功。
 
 > [!CHECK] CHECK
-> Pemeriksaan lulus (sama dengan Success).
+> 检查通过（同 Success）。
 
 > [!DONE] DONE
-> Selesai (sama dengan Success).
+> 已完成（同 Success）。
 
 > [!QUESTION] QUESTION
-> Mengajukan pertanyaan.
+> 提出问题。
 
 > [!HELP] HELP
-> Mencari bantuan (sama dengan Question).
+> 寻求帮助（同 Question）。
 
 > [!FAQ] FAQ
-> Pertanyaan yang sering diajukan (sama dengan Question).
+> 常见问题（同 Question）。
 
 > [!WARNING] WARNING
-> Informasi peringatan.
+> 警告信息。
 
 > [!CAUTION] CAUTION
-> Hal yang perlu diperhatikan (sama dengan Warning).
+> 注意事项（同 Warning）。
 
 > [!ATTENTION] ATTENTION
-> Menarik perhatian (sama dengan Warning).
+> 引起注意（同 Warning）。
 
 > [!FAILURE] FAILURE
-> Operasi gagal.
+> 操作失败。
 
 > [!FAIL] FAIL
-> Gagal (sama dengan Failure).
+> 失败（同 Failure）。
 
 > [!MISSING] MISSING
-> Konten hilang (sama dengan Failure).
+> 缺失内容（同 Failure）。
 
 > [!DANGER] DANGER
-> Peringatan operasi berbahaya.
+> 危险操作警告。
 
 > [!ERROR] ERROR
-> Informasi kesalahan (sama dengan Danger).
+> 错误信息（同 Danger）。
 
 > [!BUG] BUG
-> Melaporkan kutu (bug) perangkat lunak.
+> 报告软件缺陷。
 
 > [!EXAMPLE] EXAMPLE
-> Menampilkan sebuah contoh.
+> 展示一个例子。
 
 > [!QUOTE] QUOTE
-> Mengutip sebuah kalimat.
+> 引用一段话。
 
 > [!CITE] CITE
-> Sitasi (sama dengan Quote).
+> 引证（同 Quote）。
 
-> [!NOTE] Judul Kustom
-> Ini adalah contoh dengan judul kustom.
-
+> [!NOTE] 自定义标题
+> 这是一个带有自定义标题的示例。
 ```
-
 </details>
+
+![Obsidian](./images/obsidian.avif)
 
 ---
 
-### 3. Gaya Tema VitePress
+### 3. VitePress 主题风格
 
-Gaya [VitePress](https://vitepress.dev/) menawarkan tampilan default yang modern dan datar (flat). Saat ini hanya mencakup **5 tipe** dasar yang konsisten dengan GitHub.
+[VitePress](https://vitepress.dev/) 风格提供了一套现代化的、扁平的默认样式。目前仅包含与 GitHub 一致的 **5 种** 基础类型。
 
 <details>
-<summary>Klik untuk membuka daftar sintaks VitePress</summary>
+<summary>点击展开 VitePress 语法列表</summary>
 
 ```markdown
 > [!NOTE] NOTE
-> Setara dengan Note di GitHub.
+> 对应 GitHub 的 Note。
 
 > [!TIP] TIP
-> Setara dengan Tip di GitHub.
+> 对应 GitHub 的 Tip。
 
 > [!IMPORTANT] IMPORTANT
-> Setara dengan Important di GitHub.
+> 对应 GitHub 的 Important。
 
 > [!WARNING] WARNING
-> Setara dengan Warning di GitHub.
+> 对应 GitHub 的 Warning。
 
 > [!CAUTION] CAUTION
-> Setara dengan Caution di GitHub.
+> 对应 GitHub 的 Caution。
 
-> [!TIP] Judul Kustom
-> Gaya VitePress juga mendukung judul kustom.
-
+> [!TIP] 自定义标题
+> VitePress 风格同样支持自定义标题。
 ```
-
 </details>
+
+![VitePress](./images/vitepress.avif)
 
 ---
 
-### 4. Sintaks Gaya Docusaurus
+### 4. Docusaurus 主题风格
 
-Hanya mendukung sintaksnya saja, gaya tampilan tetap mengikuti salah satu dari tiga tema di atas.
+[Docusaurus](https://docusaurus.io/docs/markdown-features/admonitions) 风格提供了一套现代化的提醒框样式，支持 5 种类型。
 
 <details>
-<summary>Klik untuk membuka daftar sintaks Docusaurus</summary>
+<summary>点击展开 Docusaurus 语法列表 </summary>
 
-Mendukung tipe kotak peringatan berikut: `note` `tip` `important` `warning` `caution`
+支持以下类型的提醒框：`note` `tip` `info` `warning` `danger`
 
 ```markdown
 :::note
-Menonjolkan informasi yang harus dipertimbangkan pengguna, bahkan saat memindai cepat.
+突出显示用户应该考虑的信息，即使在快速浏览时也是如此。
 :::
 
 :::tip
-Informasi opsional untuk membantu pengguna lebih berhasil.
+可选信息，帮助用户更成功。
 :::
 
-:::important
-Informasi krusial yang diperlukan agar pengguna berhasil.
+:::info
+一般信息。
 :::
 
 :::warning
-Konten kritis yang memerlukan perhatian segera karena risiko potensial.
+由于潜在风险需要用户立即注意的关键内容。
 :::
 
-:::caution
-Konsekuensi negatif potensial dari suatu tindakan.
+:::danger
+行动的负面潜在后果。
 :::
 
-:::tip[Judul Kustom]
-Informasi opsional untuk membantu pengguna lebih berhasil.
+:::tip[自定义标题]
+可选信息，帮助用户更成功。
 :::
-
 ```
 
 </details>
 
+![Docusaurus](./images/docusaurus.avif)
+
 ---
 
-## Spoiler
+## 剧透
 
-Anda dapat menambahkan fitur spoiler pada teks. Teks di dalamnya juga mendukung sintaks **Markdown**.
+您可以为文本添加剧透。文本也支持 **Markdown** 语法。
 
-Konten :spoiler[telah disembunyikan **haha**]!
+内容 :spoiler[被隐藏了 **哈哈**]！
 
 ```markdown
-Konten :spoiler[telah disembunyikan **haha**]!
-
+内容 :spoiler[被隐藏了 **哈哈**]！
 ```
+
+## 图片画廊网格 (Image Grid)
+
+您可以使用 `[grid]` 和 `[/grid]` 标签将多张图片纵向并排展示。这对于展示照片画廊或对比图非常有用。系统会自动根据包裹在其中的图片数量（最多支持并排展示4张）以响应式网格进行布局。
+
+**自动补齐图片高度：** 同一排中如果有高度、大小或者比例不一的图片，会像「九宫格画廊相册」一样自动撑满。较短或不协调的图片会自动使用 object-cover 进行完美中心裁剪补充视野。图片边框水平彻底对齐无缝隙，但被裁剪后，只有点击图片通过灯箱才能查看完整图片，所以建议尽量避免使用长宽比例不一致的图片在同一排中。
+
+**图注恒定底端对齐：** 不论上面的图片长宽如何变化，在同一行的所有图像解释文字（图注）都会对标到一条完美的水平基线上了。
+
+[grid]
+![示例图片一](./images/firefly1.avif)
+![示例图片二](./images/firefly2.avif)
+![示例图片二](./images/firefly3.avif)
+[/grid]
+
+**基本语法**
+
+```markdown
+[grid]
+![示例图片一](./images/firefly1.avif)
+![示例图片二](./images/firefly2.avif)
+![示例图片二](./images/firefly3.avif)
+[/grid]
+```
+
+
+---

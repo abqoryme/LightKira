@@ -1,59 +1,60 @@
 ---
-title: Panduan Penggunaan Sederhana Neko
+title: Firefly 简单使用指南
 published: 1970-01-02
 pinned: true
-description: "Cara menggunakan template blog Neko."
-image: "./cover.webp"
-tags: ["Neko", "Blog", "Markdown", "Panduan Penggunaan"]
-category: Panduan Blog
-draft: false
+description: "如何使用 Firefly 博客模板。"
+image: "./cover.avif"
+tags: ["Firefly", "博客", "Markdown", "指南"]
+category: 博客指南
+series: "Firefly 功能示例"
+seriesOrder: 1
 ---
 
-Template blog ini dibangun berdasarkan [Astro](https://astro.build/). Untuk hal-hal yang tidak disebutkan dalam panduan ini, Anda dapat menemukan jawabannya di [Dokumentasi Astro](https://docs.astro.build/).
 
-## Front-matter Artikel
+
+这个博客模板是基于 [Astro](https://astro.build/) 构建的。对于本指南中未提及的内容，您可以在 [Astro 文档](https://docs.astro.build/) 中找到答案。
+
+## 文章的 Front-matter
 
 ```yaml
 ---
-title: Artikel Blog Pertama Saya
+title: 我的第一篇博客文章
 published: 2023-09-09
-description: Ini adalah artikel pertama di blog Astro baru saya.
+description: 这是我新 Astro 博客的第一篇文章。
 image: ./cover.jpg
-tags: [Frontend, Pengembangan]
-category: Pengembangan Frontend
+tags: [前端, 开发]
+category: 前端开发
 draft: false
 ---
-
 ```
 
-| Properti | Deskripsi |
-| --- | --- |
-| `title` | Judul artikel. |
-| `published` | Tanggal publikasi artikel. |
-| `updated` | Tanggal pembaruan artikel. Jika tidak diatur, akan menggunakan tanggal publikasi secara default. |
-| `pinned` | Apakah artikel ini akan disematkan (pin) di bagian atas daftar artikel. |
-| `description` | Deskripsi singkat artikel. Ditampilkan di halaman beranda. |
-| `image` | Jalur gambar sampul artikel.<br>
 
-<br>1. Diawali `http://` atau `https://`: Menggunakan gambar daring<br>
 
-<br>2. Diawali `/`: Gambar di dalam direktori `public`<br>
 
-<br>3. Tanpa awalan: Jalur relatif terhadap file markdown |
-| `tags` | Tag artikel. |
-| `category` | Kategori artikel. |
-| `lang` | Kode bahasa artikel (misalnya `zh-CN`). Hanya diatur jika bahasa artikel berbeda dari bahasa default situs. |
-| `licenseName` | Nama lisensi konten artikel. |
-| `licenseUrl` | Tautan lisensi konten artikel. |
-| `author` | Penulis artikel. |
-| `sourceLink` | Tautan sumber atau referensi konten artikel. |
-| `draft` | Jika artikel ini masih berupa draf, maka tidak akan ditampilkan. |
-| `comment` | Apakah fitur komentar diaktifkan untuk artikel ini. Default adalah `true`. |
-| `slug` | Jalur URL artikel kustom. Jika tidak diatur, nama file akan digunakan sebagai URL. |
+| 属性          | 描述                                                                                                                                                                                                 |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `title`       | 文章标题。                                                                                                                                                                                          |
+| `published`   | 文章发布日期。                                                                                                                                                                                      |
+| `updated`     | 文章更新日期。如果未设置，将默认使用发布日期。                                                                                                                                                      |
+| `pinned`      | 是否将此文章置顶在文章列表顶部。                                                                                                                                                                    |
+| `description` | 文章的简短描述。显示在首页上。                                                                                                                                                                      |
+| `image`       | 文章封面图片路径。<br/>1. 以 `http://` 或 `https://` 开头：使用网络图片<br/>2. 以 `/` 开头：`public` 目录中的图片<br/>3. 不带任何前缀：相对于 markdown 文件的路径 |
+| `tags`        | 文章标签。                                                                                                                                                                                          |
+| `category`    | 文章分类。                                                                                                                                                                                          |
+| `lang`        | 文章语言代码（如 `zh-CN`）。仅当文章语言与站点默认语言不同时设置。                                                                                                                                    |
+| `licenseName` | 文章内容的许可证名称。                                                                                                                                                                              |
+| `licenseUrl`  | 文章内容的许可证链接。                                                                                                                                                                              |
+| `author`      | 文章作者。                                                                                                                                                                                          |
+| `sourceLink`  | 文章内容的来源链接或参考。                                                                                                                                                                          |
+| `draft`       | 如果这篇文章仍是草稿，则不会显示。                                                                                                                                                                  |
+| `comment`     | 是否启用此文章的评论功能。默认为 `true`。                                                                                                                                                           |
+| `slug`        | 自定义文章 URL 路径。如果不设置，将使用文件名作为 URL。                                                                                                                                              |
+| `password`    | 文章密码。设置后文章内容将被 AES-256-GCM 加密，访客需输入密码才能查看。                                                                                                                              |
+| `passwordHint`| 密码提示。显示在密码输入框上方，帮助访客回忆密码，也可以不加。                                                                                                                                                    |
 
-## Lokasi Penempatan File Artikel
+## 文章文件的放置位置
 
-File artikel Anda harus diletakkan di dalam direktori `src/content/posts/`. Anda juga dapat membuat subdirektori untuk mengelola artikel dan aset Anda dengan lebih baik.
+您的文章文件应放置在 `src/content/posts/` 目录中。您也可以创建子目录来更好地组织您的文章和资源。
 
 ```
 src/content/posts/
@@ -61,71 +62,61 @@ src/content/posts/
 └── post-2/
     ├── cover.png
     └── index.md
-
 ```
 
-## URL Artikel Kustom (Slug)
+## 自定义文章 URL (Slug)
 
-### Apa itu Slug?
+### 什么是 Slug？
 
-Slug adalah bagian kustom dari jalur URL artikel. Jika slug tidak diatur, sistem akan menggunakan nama file sebagai URL.
+Slug 是文章 URL 路径的自定义部分。如果不设置 slug，系统将使用文件名作为 URL。
 
-### Contoh Penggunaan Slug
+### Slug 使用示例
 
-#### Contoh 1: Menggunakan nama file sebagai URL
-
+#### 示例 1：使用文件名作为 URL
 ```yaml
 ---
-title: Artikel Blog Pertama Saya
+title: 我的第一篇博客文章
 published: 2023-09-09
 ---
-
 ```
+文件：`src/content/posts/my-first-blog-post.md`
 
-File: `src/content/posts/artikel-blog-pertama-saya.md`
+URL：`/posts/my-first-blog-post`
 
-URL: `/posts/artikel-blog-pertama-saya`
-
-#### Contoh 2: Kustom Slug
-
+#### 示例 2：自定义 Slug
 ```yaml
 ---
-title: Artikel Blog Pertama Saya
+title: 我的第一篇博客文章
 published: 2023-09-09
-slug: halo-dunia
+slug: hello-world
 ---
-
 ```
+文件：`src/content/posts/my-first-blog-post.md`
 
-File: `src/content/posts/artikel-blog-pertama-saya.md`
+URL：`/posts/hello-world`
 
-URL: `/posts/halo-dunia`
-
-#### Contoh 3: Menggunakan Slug untuk nama file bahasa lain
-
+#### 示例 3：其他语言文件名使用Slug
 ```yaml
 ---
-title: Cara Menggunakan Tema Blog Neko
+title: 如何使用 Firefly 博客主题
 published: 2023-09-09
-slug: cara-menggunakan-tema-blog-neko
+slug: how-to-use-firefly-blog-theme
 ---
-
 ```
+文件：`src/content/posts/如何使用Firefly博客主题.md`
 
-File: `src/content/posts/如何使用Neko博客主题.md`
+URL：`/posts/how-to-use-firefly-blog-theme`
 
-URL: `/posts/cara-menggunakan-tema-blog-neko`
+### Slug 使用建议
 
-### Saran Penggunaan Slug
+1. **使用英文和连字符**：`my-awesome-post` 而不是 `my awesome post`
+2. **保持简洁**：避免过长的 slug
+3. **具有描述性**：让 URL 能够反映文章内容
+4. **避免特殊字符**：只使用字母、数字和连字符
+5. **保持一致性**：在整个博客中使用相似的命名模式
 
-1. **Gunakan bahasa Inggris dan tanda hubung**: `my-awesome-post` alih-alih `my awesome post`
-2. **Tetap ringkas**: Hindari slug yang terlalu panjang
-3. **Deskriptif**: Biarkan URL mencerminkan isi artikel
-4. **Hindari karakter khusus**: Hanya gunakan huruf, angka, dan tanda hubung
-5. **Konsistensi**: Gunakan pola penamaan yang serupa di seluruh blog
+### 注意事项
 
-### Catatan
-
-* Setelah slug diatur dan dipublikasikan, disarankan untuk tidak mengubahnya sembarangan agar tidak memengaruhi SEO dan tautan yang sudah ada.
-* Jika beberapa artikel menggunakan slug yang sama, artikel yang lebih baru akan menimpa yang sebelumnya.
-* Slug akan secara otomatis dikonversi menjadi huruf kecil.
+- Slug 一旦设置并发布，建议不要随意更改，以免影响 SEO 和已存在的链接
+- 如果多个文章使用相同的 slug，后面的文章会覆盖前面的
+- Slug 会自动转换为小写
