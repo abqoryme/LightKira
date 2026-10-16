@@ -1,134 +1,134 @@
 ---
-title: Firefly 代码块示例
+title: Contoh Blok Kode
 published: 1970-01-03
 pinned: false
-description: 在Firefly中使用表达性代码的代码块在 Markdown 中的外观。
-tags: [Markdown, Firefly]
-category: 文章示例
+description: Tampilan blok kode yang menggunakan kode ekspresif di Markdown.
+tags: [Markdown]
+category: examples
 image: ./images/firefly3.avif
 slug: code-examples
-series: "Firefly 功能示例2"
+series: "Contoh Fungsi 2"
 seriesOrder: 5
 ---
 
-在这里，我们将探索如何使用 [Expressive Code](https://expressive-code.com/) 展示代码块。提供的示例基于官方文档，您可以参考以获取更多详细信息。
+Di sini, kita akan membahas cara menggunakan [Expressive Code](https://expressive-code.com/) untuk menampilkan blok kode. Contoh yang disajikan didasarkan pada dokumentasi resmi. Anda dapat merujuknya untuk informasi lebih lanjut.
 
-## 表达性代码
+## Kode Ekspresif
 
-### 语法高亮
+### Penyorotan Sintaks
 
-[语法高亮](https://expressive-code.com/key-features/syntax-highlighting/)
+[Penyorotan Sintaks](https://expressive-code.com/key-features/syntax-highlighting/)
 
-#### 常规语法高亮
+#### Penyorotan Sintaks Umum
 
 ```js
-console.log('此代码有语法高亮!')
+console.log(‘Kode ini memiliki penyorotan sintaks!’)
 ```
 
-#### 渲染 ANSI 转义序列
+#### Merender Urutan Escape ANSI
 
 ```ansi
-[1;4mStandard ANSI colors:[0m
-- Dimmed:     [2;30m Black [2;31m Red [2;32m Green [2;33m Yellow [2;34m Blue [2;35m Magenta [2;36m Cyan [2;37m White [0m
-- Foreground: [30m Black [31m Red [32m Green [33m Yellow [34m Blue [35m Magenta [36m Cyan [37m White [0m
-- Background: [40m Black [41m Red [42m Green [43m Yellow [44m Blue [45m Magenta [46m Cyan [47m White [0m
-- Reversed:   [7;30m Black [7;31m Red [7;32m Green [7;33m Yellow [7;34m Blue [7;35m Magenta [7;36m Cyan [7;37m White [0m
+[1;4mWarna ANSI standar:[0m
+- Warna redup:     [2;30m Hitam [2;31m Merah [2;32m Hijau [2;33m Kuning [2;34m Biru [2;35m Magenta [2;36m Cyan [2;37m Putih  [0m
+- Latar Depan:     [30m Hitam [31m Merah  [32m Hijau  [33m Kuning  [34m Biru  [35m Magenta  [36m Cyan  [37m Putih  [0m
+- Latar Belakang:  [40m Hitam [41m Merah [42m Hijau [43m Kuning [44m Biru [45m Magenta [46m Cyan [47m Putih [0m
+- Terbalik:        [7;30m Hitam [7;31m Merah [7;32m Hijau [7;33m Kuning [7;34m Biru [7;35m Magenta [7;36m Cyan [7;37m Putih 0m
 
-[1;4m8-bit colors (showing colors 160-171 as an example):[0m
-- Dimmed:     [2;38;5;160m 160 [2;38;5;161m 161 [2;38;5;162m 162 [2;38;5;163m 163 [2;38;5;164m 164 [2;38;5;165m 165 [2;38;5;166m 166 [2;38;5;167m 167 [2;38;5;168m 168 [2;38;5;169m 169 [2;38;5;170m 170 [2;38;5;171m 171 [0m
-- Foreground: [38;5;160m 160 [38;5;161m 161 [38;5;162m 162 [38;5;163m 163 [38;5;164m 164 [38;5;165m 165 [38;5;166m 166 [38;5;167m 167 [38;5;168m 168 [38;5;169m 169 [38;5;170m 170 [38;5;171m 171 [0m
-- Background: [48;5;160m 160 [48;5;161m 161 [48;5;162m 162 [48;5;163m 163 [48;5;164m 164 [48;5;165m 165 [48;5;166m 166 [48;5;167m 167 [48;5;168m 168 [48;5;169m 169 [48;5;170m 170 [48;5;171m 171 [0m
-- Reversed:   [7;38;5;160m 160 [7;38;5;161m 161 [7;38;5;162m 162 [7;38;5;163m 163 [7;38;5;164m 164 [7;38;5;165m 165 [7;38;5;166m 166 [7;38;5;167m 167 [7;38;5;168m 168 [7;38;5;169m 169 [7;38;5;170m 170 [7;38;5;171m 171 [0m
+[1;4mWarna 8-bit (menampilkan warna 160–171 sebagai contoh):[0m
+- Tergelap:       [2;38;5;160m 160 [2;38;5;161m 161 [2;38;5;162m 162  [2;38;5;163m 163 8[2;38;5;164m 164 8[2;38;5;165m 165 8[2;38;5;166m 166 8[2;38;5;167m 167 8 [2;38;5;168m 168 a[2;38;5;169m 169 a[2;38;5;170m 170 a[2;38;5;171m 171 a[0m
+- Latar depan:    [38;5;160m 160 [38;5;161m 161 [38;5;162m 162 [38;5;163m 163 [38;5;164m 164 [38;5;165m 165 [38;5;166 m 166 [38;5;167 m 167 [38;5;168 m 168 [38;5;169 m 169 [38;5;170 m 170 [38;5;171 m 171 [0 m
+- Latar Belakang: [48;5;160m 160 [48;5;161m 161 [48;5;162m 162 [48;5;163m 163 [48;5;164m 164 [48;5;165m 165 [48;5;166m 166 [48;5;167m 167 [48;5;168m 168 [48;5;169m 169 [48;5;170m 170 [48;5;171m 171 [0m
+- Terbalik:       [7;38;5;160m 160 [7;38;5;161m 161 [7;38;5;162m 162 [7;38;5;163m 163 [7;38;5;164m 164 [7;38; 5;165m 165 [7;38; 5;166m 166 [7;38;5;167m 167 [7;38;5;168m 168 [7;38;5;169m 169 [7;38;5;170m 170 [7;38;5;171m 171 [0m
 
-[1;4m24-bit colors (full RGB):[0m
-- Dimmed:     [2;38;2;34;139;34m ForestGreen - RGB(34,139,34) [2;38;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
-- Foreground: [38;2;34;139;34m ForestGreen - RGB(34,139,34) [38;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
-- Background: [48;2;34;139;34m ForestGreen - RGB(34,139,34) [48;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
-- Reversed:   [7;38;2;34;139;34m ForestGreen - RGB(34,139,34) [7;38;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
+[1;4mWarna 24-bit (RGB penuh):[0m
+- Diredupkan:     [2;38;2;34;139;34m ForestGreen - RGB(34,139,34) [2;38;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
+- Latar Depan:    [38;2;34;139;34m ForestGreen - RGB(34,139,34) [38;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
+- Latar Belakang: [48;2;34;139;34m ForestGreen - RGB(34,139,34) [48;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
+- Terbalik:       [7;38;2;34;139;34m HijauHutan - RGB(34,139,34) [7;38;2;102;51;153m UnguRebecca - RGB(102,51,153) [0m
 
-[1;4mFont styles:[0m
+[1;4mGaya huruf:[0m
 - Default
-- [1mBold[0m
-- [2mDimmed[0m
-- [3mItalic[0m
-- [4mUnderline[0m
-- [7mReversed[0m
-- [9mStrikethrough[0m
+- [1mTebal[0m
+- [2mTerdim[0m
+- [3mMiring[0m
+- [4mBergaris bawah[0m
+- [7mTerbalik[0m
+- [9mDicoret[0m
 ```
 
-### 编辑器和终端框架
+### Kerangka Kerja Editor dan Terminal
 
-[编辑器和终端框架](https://expressive-code.com/key-features/frames/)
+[Kerangka Kerja Editor dan Terminal](https://expressive-code.com/key-features/frames/)
 
-#### 代码编辑器框架
+#### Kerangka Kerja Editor Kode
 
 ```js title="my-test-file.js"
-console.log('标题属性示例')
+console.log(‘Contoh atribut judul’)
 ```
 
 ---
 
 ```html
 <!-- src/content/index.html -->
-<div>文件名注释示例</div>
+<div>Contoh komentar nama berkas</div>
 ```
 
-#### 终端框架
+#### Kerangka Kerja Terminal
 
 ```bash
-echo "此终端框架没有标题"
+echo "Kerangka kerja terminal ini tidak memiliki judul”
 ```
 
 ---
 
-```powershell title="PowerShell 终端示例"
-Write-Output "这个有标题!"
+```powershell title="Contoh Terminal PowerShell"
+Write-Output "Ini ada judulnya!”
 ```
 
-#### 覆盖框架类型
+#### Mengganti jenis bingkai
 
 ```sh frame="none"
-echo "看，没有框架!"
+echo "Lihat, tidak ada bingkai!”
 ```
 
 ---
 
 ```ps frame="code" title="PowerShell Profile.ps1"
-# 如果不覆盖，这将是一个终端框架
+# Jika tidak diganti, ini akan menjadi bingkai terminal
 function Watch-Tail { Get-Content -Tail 20 -Wait $args }
 New-Alias tail Watch-Tail
 ```
 
-### 文本和行标记
+### Penandaan Teks dan Baris
 
-[文本和行标记](https://expressive-code.com/key-features/text-markers/)
+[Penandaan Teks dan Baris](https://expressive-code.com/key-features/text-markers/)
 
-#### 标记整行和行范围
+#### Menandai Seluruh Baris dan Rentang Baris
 
 ```js {1, 4, 7-8}
-// 第1行 - 通过行号定位
-// 第2行
-// 第3行
-// 第4行 - 通过行号定位
-// 第5行
-// 第6行
-// 第7行 - 通过范围 "7-8" 定位
-// 第8行 - 通过范围 "7-8" 定位
+// Baris ke-1 - Penentuan posisi berdasarkan nomor baris
+// Baris ke-2
+// Baris ke-3
+// Baris ke-4 - Penentuan posisi berdasarkan nomor baris
+// Baris ke-5
+// Baris ke-6
+// Baris ke-7 - Penentuan posisi berdasarkan rentang "7-8”
+// Baris ke-8 - Penentuan posisi berdasarkan rentang "7-8”
 ```
 
-#### 选择行标记类型 (mark, ins, del)
+#### Memilih jenis penanda baris (mark, ins, del)
 
 ```js title="line-markers.js" del={2} ins={3-4} {6}
 function demo() {
-  console.log('此行标记为已删除')
-  // 此行和下一行标记为已插入
-  console.log('这是第二个插入行')
+  console.log(‘Baris ini ditandai sebagai telah dihapus’)
+  // Baris ini dan baris berikutnya ditandai sebagai telah disisipkan
+  console.log(‘Ini adalah baris sisipan kedua’)
 
-  return '此行使用中性默认标记类型'
+  return ‘Baris ini menggunakan jenis penanda default netral’
 }
 ```
 
-#### 为行标记添加标签
+#### Menambahkan label ke penanda baris
 
 ```jsx {"1":5} del={"2":7-8} ins={"3":10-12}
 // labeled-line-markers.jsx
@@ -146,9 +146,9 @@ function demo() {
 </button>
 ```
 
-#### 在单独行上添加长标签
+#### Menambahkan label panjang pada baris terpisah
 
-```jsx {"1. Provide the value prop here:":5-6} del={"2. Remove the disabled and active states:":8-10} ins={"3. Add this to render the children inside the button:":12-15}
+```jsx {"1. Cantumkan properti value di sini:”:5-6} del={"2. Hapus status disabled dan active:”:8-10} ins={"3. Tambahkan ini untuk menampilkan elemen anak di dalam tombol:”:12-15}
 // labeled-line-markers.jsx
 <button
   role="button"
@@ -163,16 +163,16 @@ function demo() {
 
   {children &&
     !active &&
-    (typeof children === 'string' ? <span>{children}</span> : children)}
+    (typeof children === ‘string’ ? <span>{children}</span> : children)}
 </button>
 ```
 
-#### 使用类似 diff 的语法
+#### Menggunakan sintaks mirip diff
 
 ```diff
-+此行将标记为已插入
--此行将标记为已删除
-这是常规行
++Baris ini akan ditandai sebagai baris yang ditambahkan
+-Baris ini akan ditandai sebagai baris yang dihapus
+Ini adalah baris biasa
 ```
 
 ---
@@ -181,162 +181,162 @@ function demo() {
 --- a/README.md
 +++ b/README.md
 @@ -1,3 +1,4 @@
-+this is an actual diff file
--all contents will remain unmodified
- no whitespace will be removed either
++ini adalah berkas diff yang sebenarnya
+-semua isi akan tetap tidak diubah
+ spasi kosong juga tidak akan dihapus
 ```
 
-#### 结合语法高亮和类似 diff 的语法
+#### Menggabungkan penyorotan sintaks dan sintaks mirip diff
 
 ```diff lang="js"
   function thisIsJavaScript() {
-    // 整个块都会以 JavaScript 高亮显示，
-    // 并且我们仍然可以为其添加 diff 标记！
--   console.log('要删除的旧代码')
-+   console.log('新的闪亮代码！')
+    // Seluruh blok ini akan disorot sebagai JavaScript,
+    // dan kita masih bisa menambahkan tag diff ke dalamnya!
+-   console.log(‘Kode lama yang akan dihapus’)
++   console.log(‘Kode baru yang keren!’)
   }
 ```
 
-#### 标记行内的单独文本
+#### Menandai teks tertentu dalam baris
 
-```js "given text"
+```js "teks yang diberikan”
 function demo() {
-  // 标记行内的任何给定文本
-  return '支持给定文本的多个匹配项';
+  // Menandai teks apa pun yang diberikan di dalam baris
+  return ‘Mendukung beberapa kecocokan untuk teks yang diberikan’;
 }
 ```
 
-#### 正则表达式
+#### Ekspresi reguler
 
 ```ts /ye[sp]/
-console.log('单词 yes 和 yep 将被标记。')
+console.log(‘Kata yes dan yep akan ditandai.’)
 ```
 
-#### 转义正斜杠
+#### Meng-escape tanda garis miring
 
 ```sh /\/ho.*\//
-echo "Test" > /home/test.txt
+echo "Test” > /home/test.txt
 ```
 
-#### 选择内联标记类型 (mark, ins, del)
+#### Memilih jenis penanda inline (mark, ins, del)
 
-```js "return true;" ins="inserted" del="deleted"
+```js "return true;” ins="inserted" del="deleted"
 function demo() {
-  console.log('这些是插入和删除的标记类型');
-  // return 语句使用默认标记类型
+  console.log(‘Ini adalah jenis penanda penyisipan dan penghapusan’);
+  // Pernyataan return menggunakan jenis penanda default
   return true;
 }
 ```
 
-### 自动换行
+### Pemisahan Baris Otomatis
 
-[自动换行](https://expressive-code.com/key-features/word-wrap/)
+[Pemisahan Baris Otomatis](https://expressive-code.com/key-features/word-wrap/)
 
-#### 为每个块配置自动换行
+#### Mengonfigurasi pemisahan baris otomatis untuk setiap blok
 
 ```js wrap
-// 启用换行的示例
+// Contoh pengaktifan pemotongan baris
 function getLongString() {
-  return '这是一个非常长的字符串，除非容器极宽，否则很可能无法适应可用空间'
+  return ‘Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia’
 }
 ```
 
 ---
 
 ```js wrap=false
-// wrap=false 的示例
+// Contoh dengan wrap=false
 function getLongString() {
-  return '这是一个非常长的字符串，除非容器极宽，否则很可能无法适应可用空间'
+  return ‘Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar tidak akan muat di ruang yang tersedia’
 }
 ```
 
-#### 配置换行的缩进
+#### Konfigurasi indentasi saat pemotongan baris
 
 ```js wrap preserveIndent
-// preserveIndent 示例（默认启用）
+// Contoh preserveIndent (diaktifkan secara default)
 function getLongString() {
-  return '这是一个非常长的字符串，除非容器极宽，否则很可能无法适应可用空间'
+  return ‘Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia’
 }
 ```
 
 ---
 
 ```js wrap preserveIndent=false
-// preserveIndent=false 的示例
+// Contoh preserveIndent=false
 function getLongString() {
-  return '这是一个非常长的字符串，除非容器极宽，否则很可能无法适应可用空间'
+  return ‘Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia’
 }
 ```
 
-## 可折叠部分
+## Bagian yang Dapat Dilipat
 
-[可折叠部分](https://expressive-code.com/plugins/collapsible-sections/)
+[Bagian yang Dapat Dilipat](https://expressive-code.com/plugins/collapsible-sections/)
 
 ```js collapse={1-5, 12-14, 21-24}
-// 所有这些样板设置代码将被折叠
-import { someBoilerplateEngine } from '@example/some-boilerplate'
-import { evenMoreBoilerplate } from '@example/even-more-boilerplate'
+// Semua kode pengaturan boilerplate ini akan dilipat
+import { someBoilerplateEngine } from ‘@example/some-boilerplate’
+import { evenMoreBoilerplate } from ‘@example/even-more-boilerplate’
 
 const engine = someBoilerplateEngine(evenMoreBoilerplate())
 
-// 这部分代码默认可见
+// Bagian kode ini secara default tetap terlihat
 engine.doSomething(1, 2, 3, calcFn)
 
 function calcFn() {
-  // 您可以有多个折叠部分
+  // Anda dapat memiliki beberapa bagian yang dapat dilipat
   const a = 1
   const b = 2
   const c = a + b
 
-  // 这将保持可见
-  console.log(`计算结果: ${a} + ${b} = ${c}`)
+  // Bagian ini akan tetap terlihat
+  console.log(`Hasil perhitungan: ${a} + ${b} = ${c}`)
   return c
 }
 
-// 直到块末尾的所有代码将再次被折叠
+// Semua kode hingga akhir blok akan dilipat kembali
 engine.closeConnection()
 engine.freeMemory()
-engine.shutdown({ reason: '示例样板代码结束' })
+engine.shutdown({ reason: ‘Contoh kode templat berakhir’ })
 ```
 
-## 行号
+## Nomor Baris
 
-[行号](https://expressive-code.com/plugins/line-numbers/)
+[Nomor baris](https://expressive-code.com/plugins/line-numbers/)
 
-### 为每个块显示行号
+### Menampilkan nomor baris untuk setiap blok
 
 ```js showLineNumbers
-// 此代码块将显示行号
-console.log('来自第2行的问候!')
-console.log('我在第3行')
+// Blok kode ini akan menampilkan nomor baris
+console.log(‘Salam dari baris ke-2!’)
+console.log(‘Saya ada di baris ke-3’)
 ```
 
 ---
 
 ```js showLineNumbers=false
-// 此块禁用行号
-console.log('你好?')
-console.log('抱歉，你知道我在第几行吗?')
+// Blok ini menonaktifkan nomor baris
+console.log(‘Halo?’)
+console.log(‘Maaf, tahukah kamu di baris keberapa aku berada?’)
 ```
 
-### 更改起始行号
+### Mengubah nomor baris awal
 
 ```js showLineNumbers startLineNumber=5
-console.log('来自第5行的问候!')
-console.log('我在第6行')
+console.log(‘Salam dari baris ke-5!’)
+console.log(‘Aku ada di baris ke-6’)
 ```
 
-## Tab 代码块
+## Blok Kode Tab
 
-由 [rehype-code-group](https://github.com/ITZSHOAIB/rehype-code-group) 提供，语法与 [VitePress 代码组](https://vitepress.dev/guide/markdown#code-groups) 一致：用 `::: code-group labels=[...]` 包裹多个代码块，即可合并成一组标签页。
+Disediakan oleh [rehype-code-group](https://github.com/ITZSHOAIB/rehype-code-group), sintaksnya sama dengan [VitePress code group](https://vitepress.dev/guide/markdown#code-groups): gunakan `::: code-group labels=[...]` untuk menggabungkan beberapa blok kode menjadi satu grup tab.
 
-> [!NOTE]
-> `labels=[...]` 中的标签按顺序对应组内的代码块，用英文逗号分隔；`:::` 与 `code-group` 之间的空格不能省略。
+> [!CATATAN]
+> Label dalam `labels=[...]` sesuai urutan dengan blok kode dalam grup tersebut, dipisahkan dengan koma; spasi antara `:::` dan `code-group` tidak boleh dihilangkan.
 
-### 基本用法
+### Penggunaan Dasar
 
 ````markdown
-::: code-group labels=[code.js, code.py, code.html]
+::: kelompok-kode label=[code.js, code.py, code.html]
 
 ```js
 export function greet(name) {
@@ -346,7 +346,7 @@ export function greet(name) {
 
 ```py
 def greet(name):
-    return f"Hello, {name}!"
+    return f"Hello, {name}!”
 ```
 
 ```html
@@ -356,7 +356,7 @@ def greet(name):
 :::
 ````
 
-渲染效果：
+Efek rendering:
 
 ::: code-group labels=[code.js, code.py, code.html]
 
@@ -368,7 +368,7 @@ export function greet(name) {
 
 ```py
 def greet(name):
-    return f"Hello, {name}!"
+    return f"Hello, {name}!”
 ```
 
 ```html
@@ -377,9 +377,9 @@ def greet(name):
 
 :::
 
-### 标签中使用 Emoji
+### Penggunaan Emoji dalam Label
 
-标签支持 [emoji 短代码](https://github.com/omnidan/node-emoji#readme)，构建时会自动转换成 emoji：
+Label mendukung [kode pendek emoji](https://github.com/omnidan/node-emoji#readme), yang akan secara otomatis diubah menjadi emoji saat proses kompilasi:
 
 ````markdown
 ::: code-group labels=[:package: npm, :package: pnpm, :yarn: yarn]
@@ -401,57 +401,57 @@ yarn create astro
 
 :::
 
-### 与其他代码块特性组合
+### Kombinasi dengan Fitur Blok Kode Lainnya
 
-组内仍是普通的 Expressive Code 代码块，标题、行号、行标记、折叠、终端框架等特性都可以照常使用。
+Di dalam grup ini, blok kode Expressive Code tetap berfungsi seperti biasa; fitur-fitur seperti judul, nomor baris, penanda baris, penyembunyian, dan bingkai terminal dapat digunakan seperti biasa.
 
-::: code-group labels=[配置文件, 终端, 折叠]
+::: code-group labels=[file konfigurasi, terminal, penyembunyian]
 
 ```js title="astro.config.mjs" showLineNumbers {2} ins={3}
 export default {
-  theme: "firefly",
+  theme: "firefly”,
   codeGroup: true,
 };
 ```
 
-```bash title="部署"
+```bash title="Deploy"
 pnpm build && pnpm preview
 ```
 
 ```js collapse={1-3}
-// 这三行默认折叠
-import { a } from "a";
-import { b } from "b";
+// Tiga baris ini terlipat secara default
+import { a } from "a”;
+import { b } from "b”;
 
 console.log(a, b);
 ```
 
 :::
 
-### 不止是代码块
+### Lebih dari sekadar blok kode
 
-标签页内可以放任意内容，例如文字、列表或图片：
+Tab dapat berisi konten apa pun, seperti teks, daftar, atau gambar:
 
-::: code-group labels=[说明, 列表]
+::: code-group labels=[Penjelasan, Daftar]
 
-这是一段普通的段落内容。
+Ini adalah isi paragraf biasa.
 
-- 列表项一
-- 列表项二
+- Item daftar pertama
+- Item daftar kedua
 
 :::
 
 > [!TIP]
-> 标签栏在构建期生成，默认展开第一项；支持鼠标点击与键盘 <kbd>←</kbd> / <kbd>→</kbd> / <kbd>Home</kbd> / <kbd>End</kbd> 切换。
+> Tab dibuat pada tahap pembangunan, dan secara default item pertama akan terbuka; mendukung navigasi dengan klik mouse dan tombol keyboard <kbd>←</kbd> / <kbd>→</kbd> / <kbd>Home</kbd> / <kbd>End</kbd>.
 
-### 在提醒框内使用（MDX 组件）
+### Penggunaan dalam kotak pemberitahuan (komponen MDX)
 
-`::: code-group` 和 `::: tip` 等 Docusaurus 风格提醒框都使用 `:::` 容器语法，而 micromark-directive 规定父子容器的冒号数必须不同，因此 `::: code-group` **无法嵌套在 `::: tip` 等提醒框内**（整块会失效）。
+Kotak petunjuk bergaya Docusaurus seperti `::: code-group` dan `::: tip` semuanya menggunakan sintaks kontainer `:::`, sedangkan micromark-directive menetapkan bahwa jumlah tanda titik dua pada kontainer induk dan anak harus berbeda. Oleh karena itu, `::: code-group` **tidak dapat disematkan di dalam kotak petunjuk seperti `::: tip`** (seluruh blok akan menjadi tidak berfungsi).
 
-这种情况改用 MDX 组件 [`TabGroup`](@/components/common/TabGroup.svelte)：MDX 组件不经过 `:::` 指令解析，在提醒框内外都能正常使用，也方便日后扩展更多 UI 组件。把文章后缀改为 `.mdx`，从统一入口 [`@/components/firefly-mdx`](@/components/firefly-mdx.ts) 引入（可一次引入多个组件）：
+Dalam situasi ini, gunakan komponen MDX [`TabGroup`](@/components/common/TabGroup.svelte): Komponen MDX tidak diproses melalui direktif `:::`, sehingga dapat digunakan dengan normal baik di dalam maupun di luar kotak petunjuk, serta memudahkan pengembangan komponen UI tambahan di masa mendatang. Ubah ekstensi artikel menjadi `.mdx`, lalu impor dari titik masuk terpusat [`@/components/firefly-mdx`](@/components/firefly-mdx.ts) (Anda dapat mengimpor beberapa komponen sekaligus):
 
 ````mdx
-import { TabGroup } from "@/components/firefly-mdx";
+import { TabGroup } from "@/components/firefly-mdx”;
 
 :::tip
 
@@ -469,6 +469,6 @@ import { TabGroup } from "@/components/firefly-mdx";
 ````
 
 :::tip
-- `labels` 数组给每个代码块声明标签，顺序一一对应
-- 组件用 `client:load` 激活标签切换
+- Array `labels` mendeklarasikan label untuk setiap blok kode, dengan urutan yang sesuai satu per satu
+- Komponen menggunakan `client:load` untuk mengaktifkan peralihan label
 :::
