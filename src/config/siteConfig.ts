@@ -4,7 +4,7 @@ import { resolveSiteLang } from "../utils/site-config-utils";
 
 // 定义站点语言
 // 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'id', 'ja', 'ru', 'ko'。
-const SITE_LANG = resolveSiteLang("id");
+const SITE_LANG = resolveSiteLang("en");
 
 // 页面开关配置 - 控制特定页面的访问权限，设为false会返回404并自动隐藏对应的导航栏菜单项
 const pages = resolvePageToggles({
