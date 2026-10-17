@@ -22,7 +22,7 @@ Di sini, kita akan membahas cara menggunakan [Expressive Code](https://expressiv
 #### Penyorotan Sintaks Umum
 
 ```js
-console.log(‘Kode ini memiliki penyorotan sintaks!’)
+console.log('Kode ini memiliki penyorotan sintaks!')
 ```
 
 #### Merender Urutan Escape ANSI
@@ -63,7 +63,7 @@ console.log(‘Kode ini memiliki penyorotan sintaks!’)
 #### Kerangka Kerja Editor Kode
 
 ```js title="my-test-file.js"
-console.log(‘Contoh atribut judul’)
+console.log('Contoh atribut judul')
 ```
 
 ---
@@ -76,19 +76,19 @@ console.log(‘Contoh atribut judul’)
 #### Kerangka Kerja Terminal
 
 ```bash
-echo "Kerangka kerja terminal ini tidak memiliki judul”
+echo "Kerangka kerja terminal ini tidak memiliki judul"
 ```
 
 ---
 
 ```powershell title="Contoh Terminal PowerShell"
-Write-Output "Ini ada judulnya!”
+Write-Output "Ini ada judulnya!"
 ```
 
 #### Mengganti jenis bingkai
 
 ```sh frame="none"
-echo "Lihat, tidak ada bingkai!”
+echo "Lihat, tidak ada bingkai!"
 ```
 
 ---
@@ -112,19 +112,19 @@ New-Alias tail Watch-Tail
 // Baris ke-4 - Penentuan posisi berdasarkan nomor baris
 // Baris ke-5
 // Baris ke-6
-// Baris ke-7 - Penentuan posisi berdasarkan rentang "7-8”
-// Baris ke-8 - Penentuan posisi berdasarkan rentang "7-8”
+// Baris ke-7 - Penentuan posisi berdasarkan rentang "7-8"
+// Baris ke-8 - Penentuan posisi berdasarkan rentang "7-8"
 ```
 
 #### Memilih jenis penanda baris (mark, ins, del)
 
 ```js title="line-markers.js" del={2} ins={3-4} {6}
 function demo() {
-  console.log(‘Baris ini ditandai sebagai telah dihapus’)
+  console.log('Baris ini ditandai sebagai telah dihapus')
   // Baris ini dan baris berikutnya ditandai sebagai telah disisipkan
-  console.log(‘Ini adalah baris sisipan kedua’)
+  console.log('Ini adalah baris sisipan kedua')
 
-  return ‘Baris ini menggunakan jenis penanda default netral’
+  return 'Baris ini menggunakan jenis penanda default netral'
 }
 ```
 
@@ -148,7 +148,7 @@ function demo() {
 
 #### Menambahkan label panjang pada baris terpisah
 
-```jsx {"1. Cantumkan properti value di sini:”:5-6} del={"2. Hapus status disabled dan active:”:8-10} ins={"3. Tambahkan ini untuk menampilkan elemen anak di dalam tombol:”:12-15}
+```jsx {"1. Cantumkan properti value di sini:":5-6} del={"2. Hapus status disabled dan active:":8-10} ins={"3. Tambahkan ini untuk menampilkan elemen anak di dalam tombol:":12-15}
 // labeled-line-markers.jsx
 <button
   role="button"
@@ -163,7 +163,7 @@ function demo() {
 
   {children &&
     !active &&
-    (typeof children === ‘string’ ? <span>{children}</span> : children)}
+    (typeof children === 'string' ? <span>{children}</span> : children)}
 </button>
 ```
 
@@ -192,37 +192,37 @@ Ini adalah baris biasa
   function thisIsJavaScript() {
     // Seluruh blok ini akan disorot sebagai JavaScript,
     // dan kita masih bisa menambahkan tag diff ke dalamnya!
--   console.log(‘Kode lama yang akan dihapus’)
-+   console.log(‘Kode baru yang keren!’)
+-   console.log('Kode lama yang akan dihapus')
++   console.log('Kode baru yang keren!')
   }
 ```
 
 #### Menandai teks tertentu dalam baris
 
-```js "teks yang diberikan”
+```js "teks yang diberikan"
 function demo() {
   // Menandai teks apa pun yang diberikan di dalam baris
-  return ‘Mendukung beberapa kecocokan untuk teks yang diberikan’;
+  return 'Mendukung beberapa kecocokan untuk teks yang diberikan';
 }
 ```
 
 #### Ekspresi reguler
 
 ```ts /ye[sp]/
-console.log(‘Kata yes dan yep akan ditandai.’)
+console.log('Kata yes dan yep akan ditandai.')
 ```
 
 #### Meng-escape tanda garis miring
 
 ```sh /\/ho.*\//
-echo "Test” > /home/test.txt
+echo "Test" > /home/test.txt
 ```
 
 #### Memilih jenis penanda inline (mark, ins, del)
 
-```js "return true;” ins="inserted" del="deleted"
+```js "return true;" ins="inserted" del="deleted"
 function demo() {
-  console.log(‘Ini adalah jenis penanda penyisipan dan penghapusan’);
+  console.log('Ini adalah jenis penanda penyisipan dan penghapusan');
   // Pernyataan return menggunakan jenis penanda default
   return true;
 }
@@ -237,7 +237,7 @@ function demo() {
 ```js wrap
 // Contoh pengaktifan pemotongan baris
 function getLongString() {
-  return ‘Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia’
+  return 'Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia'
 }
 ```
 
@@ -246,7 +246,7 @@ function getLongString() {
 ```js wrap=false
 // Contoh dengan wrap=false
 function getLongString() {
-  return ‘Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar tidak akan muat di ruang yang tersedia’
+  return 'Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar tidak akan muat di ruang yang tersedia'
 }
 ```
 
@@ -255,7 +255,7 @@ function getLongString() {
 ```js wrap preserveIndent
 // Contoh preserveIndent (diaktifkan secara default)
 function getLongString() {
-  return ‘Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia’
+  return 'Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia'
 }
 ```
 
@@ -264,7 +264,7 @@ function getLongString() {
 ```js wrap preserveIndent=false
 // Contoh preserveIndent=false
 function getLongString() {
-  return ‘Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia’
+  return 'Ini adalah string yang sangat panjang; kecuali wadahnya sangat lebar, kemungkinan besar string ini tidak akan muat di ruang yang tersedia'
 }
 ```
 
@@ -274,8 +274,8 @@ function getLongString() {
 
 ```js collapse={1-5, 12-14, 21-24}
 // Semua kode pengaturan boilerplate ini akan dilipat
-import { someBoilerplateEngine } from ‘@example/some-boilerplate’
-import { evenMoreBoilerplate } from ‘@example/even-more-boilerplate’
+import { someBoilerplateEngine } from '@example/some-boilerplate'
+import { evenMoreBoilerplate } from '@example/even-more-boilerplate'
 
 const engine = someBoilerplateEngine(evenMoreBoilerplate())
 
@@ -296,7 +296,7 @@ function calcFn() {
 // Semua kode hingga akhir blok akan dilipat kembali
 engine.closeConnection()
 engine.freeMemory()
-engine.shutdown({ reason: ‘Contoh kode templat berakhir’ })
+engine.shutdown({ reason: 'Contoh kode templat berakhir' })
 ```
 
 ## Nomor Baris
@@ -307,23 +307,23 @@ engine.shutdown({ reason: ‘Contoh kode templat berakhir’ })
 
 ```js showLineNumbers
 // Blok kode ini akan menampilkan nomor baris
-console.log(‘Salam dari baris ke-2!’)
-console.log(‘Saya ada di baris ke-3’)
+console.log('Salam dari baris ke-2!')
+console.log('Saya ada di baris ke-3')
 ```
 
 ---
 
 ```js showLineNumbers=false
 // Blok ini menonaktifkan nomor baris
-console.log(‘Halo?’)
-console.log(‘Maaf, tahukah kamu di baris keberapa aku berada?’)
+console.log('Halo?')
+console.log('Maaf, tahukah kamu di baris keberapa aku berada?')
 ```
 
 ### Mengubah nomor baris awal
 
 ```js showLineNumbers startLineNumber=5
-console.log(‘Salam dari baris ke-5!’)
-console.log(‘Aku ada di baris ke-6’)
+console.log('Salam dari baris ke-5!')
+console.log('Aku ada di baris ke-6')
 ```
 
 ## Blok Kode Tab
@@ -346,7 +346,7 @@ export function greet(name) {
 
 ```py
 def greet(name):
-    return f"Hello, {name}!”
+    return f"Hello, {name}!"
 ```
 
 ```html
@@ -368,7 +368,7 @@ export function greet(name) {
 
 ```py
 def greet(name):
-    return f"Hello, {name}!”
+    return f"Hello, {name}!"
 ```
 
 ```html
@@ -409,7 +409,7 @@ Di dalam grup ini, blok kode Expressive Code tetap berfungsi seperti biasa; fitu
 
 ```js title="astro.config.mjs" showLineNumbers {2} ins={3}
 export default {
-  theme: "firefly”,
+  theme: "firefly",
   codeGroup: true,
 };
 ```
@@ -420,8 +420,8 @@ pnpm build && pnpm preview
 
 ```js collapse={1-3}
 // Tiga baris ini terlipat secara default
-import { a } from "a”;
-import { b } from "b”;
+import { a } from "a";
+import { b } from "b";
 
 console.log(a, b);
 ```
@@ -451,7 +451,7 @@ Kotak petunjuk bergaya Docusaurus seperti `::: code-group` dan `::: tip` semuany
 Dalam situasi ini, gunakan komponen MDX [`TabGroup`](@/components/common/TabGroup.svelte): Komponen MDX tidak diproses melalui direktif `:::`, sehingga dapat digunakan dengan normal baik di dalam maupun di luar kotak petunjuk, serta memudahkan pengembangan komponen UI tambahan di masa mendatang. Ubah ekstensi artikel menjadi `.mdx`, lalu impor dari titik masuk terpusat [`@/components/firefly-mdx`](@/components/firefly-mdx.ts) (Anda dapat mengimpor beberapa komponen sekaligus):
 
 ````mdx
-import { TabGroup } from "@/components/firefly-mdx”;
+import { TabGroup } from "@/components/firefly-mdx";
 
 :::tip
 
