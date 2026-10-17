@@ -29,32 +29,32 @@ console.log('Kode ini memiliki penyorotan sintaks!')
 
 
 ```ansi
-[1;4mWarna ANSI standar:[0m
-- Warna redup:     [2;30m Hitam [2;31m Merah [2;32m Hijau [2;33m Kuning [2;34m Biru [2;35m Magenta [2;36m Cyan [2;37m Putih [0m
-- Latar Depan:     [30m Hitam [31m Merah [32m Hijau [33m Kuning [34m Biru [35m Magenta [36m Cyan [37m Putih [0m
-- Latar Belakang:  [40m Hitam [41m Merah [42m Hijau [43m Kuning [44m Biru [45m Magenta [46m Cyan [47m Putih [0m
-- Terbalik:        [7;30m Hitam [7;31m Merah [7;32m Hijau [7;33m Kuning [7;34m Biru [7;35m Magenta [7;36m Cyan [7;37m Putih 0m
+[1;4mWarna ANSI standar:[0m
+- Warna redup:     [2;30m Hitam [2;31m Merah [2;32m Hijau [2;33m Kuning [2;34m Biru [2;35m Magenta [2;36m Sian [2;37m Putih [0m
+- Warna teks:      [30m Hitam [31m Merah [32m Hijau [33m Kuning [34m Biru [35m Magenta [36m Sian [37m Putih [0m
+- Warna latar:     [40m Hitam [41m Merah [42m Hijau [43m Kuning [44m Biru [45m Magenta [46m Sian [47m Putih [0m
+- Warna terbalik:  [7;30m Hitam [7;31m Merah [7;32m Hijau [7;33m Kuning [7;34m Biru [7;35m Magenta [7;36m Sian [7;37m Putih [0m
 
-[1;4mWarna 8-bit (menampilkan warna 160–171 sebagai contoh):[0m
-- Tergelap:       [2;38;5;160m 160 [2;38;5;161m 161 [2;38;5;162m 162 [2;38;5;163m 163 8[2;38;5;164m 164 8[2;38;5;165m 165 8[2;38;5;166m 166 8[2;38;5;167m 167 8 [2;38;5;168m 168 a[2;38;5;169m 169 a[2;38;5;170m 170 a[2;38;5;171m 171 a[0m
-- Latar depan:    [38;5;160m 160 [38;5;161m 161 [38;5;162m 162 [38;5;163m 163 [38;5;164m 164 [38;5;165m 165 [38;5;166 m 166 [38;5;167 m 167 [38;5;168 m 168 [38;5;169 m 169 [38;5;170 m 170 [38;5;171 m 171 [0 m
-- Latar Belakang: [48;5;160m 160 [48;5;161m 161 [48;5;162m 162 [48;5;163m 163 [48;5;164m 164 [48;5;165m 165 [48;5;166m 166 [48;5;167m 167 [48;5;168m 168 [48;5;169m 169 [48;5;170m 170 [48;5;171m 171 [0m
-- Terbalik:       [7;38;5;160m 160 [7;38;5;161m 161 [7;38;5;162m 162 [7;38;5;163m 163 [7;38;5;164m 164 [7;38; 5;165m 165 [7;38; 5;166m 166 [7;38;5;167m 167 [7;38;5;168m 168 [7;38;5;169m 169 [7;38;5;170m 170 [7;38;5;171m 171 [0m
+[1;4mWarna 8-bit (contoh warna 160–171):[0m
+- Warna redup:     [2;38;5;160m 160 [2;38;5;161m 161 [2;38;5;162m 162 [2;38;5;163m 163 [2;38;5;164m 164 [2;38;5;165m 165 [2;38;5;166m 166 [2;38;5;167m 167 [2;38;5;168m 168 [2;38;5;169m 169 [2;38;5;170m 170 [2;38;5;171m 171 [0m
+- Warna teks:      [38;5;160m 160 [38;5;161m 161 [38;5;162m 162 [38;5;163m 163 [38;5;164m 164 [38;5;165m 165 [38;5;166m 166 [38;5;167m 167 [38;5;168m 168 [38;5;169m 169 [38;5;170m 170 [38;5;171m 171 [0m
+- Warna latar:     [48;5;160m 160 [48;5;161m 161 [48;5;162m 162 [48;5;163m 163 [48;5;164m 164 [48;5;165m 165 [48;5;166m 166 [48;5;167m 167 [48;5;168m 168 [48;5;169m 169 [48;5;170m 170 [48;5;171m 171 [0m
+- Warna terbalik:  [7;38;5;160m 160 [7;38;5;161m 161 [7;38;5;162m 162 [7;38;5;163m 163 [7;38;5;164m 164 [7;38;5;165m 165 [7;38;5;166m 166 [7;38;5;167m 167 [7;38;5;168m 168 [7;38;5;169m 169 [7;38;5;170m 170 [7;38;5;171m 171 [0m
 
-[1;4mWarna 24-bit (RGB penuh):[0m
-- Diredupkan:     [2;38;2;34;139;34m ForestGreen - RGB(34,139,34) [2;38;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
-- Latar Depan:    [38;2;34;139;34m ForestGreen - RGB(34,139,34) [38;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
-- Latar Belakang: [48;2;34;139;34m ForestGreen - RGB(34,139,34) [48;2;102;51;153m RebeccaPurple - RGB(102,51,153) [0m
-- Terbalik:       [7;38;2;34;139;34m HijauHutan - RGB(34,139,34) [7;38;2;102;51;153m UnguRebecca - RGB(102,51,153) [0m
+[1;4mWarna 24-bit (RGB penuh):[0m
+- Warna redup:     [2;38;2;34;139;34m Hijau Hutan - RGB(34,139,34) [2;38;2;102;51;153m Ungu Rebecca - RGB(102,51,153) [0m
+- Warna teks:      [38;2;34;139;34m Hijau Hutan - RGB(34,139,34) [38;2;102;51;153m Ungu Rebecca - RGB(102,51,153) [0m
+- Warna latar:     [48;2;34;139;34m Hijau Hutan - RGB(34,139,34) [48;2;102;51;153m Ungu Rebecca - RGB(102,51,153) [0m
+- Warna terbalik:  [7;38;2;34;139;34m Hijau Hutan - RGB(34,139,34) [7;38;2;102;51;153m Ungu Rebecca - RGB(102,51,153) [0m
 
-[1;4mGaya huruf:[0m
-- Default
-- [1mTebal[0m
-- [2mTerdim[0m
-- [3mMiring[0m
-- [4mBergaris bawah[0m
-- [7mTerbalik[0m
-- [9mDicoret[0m
+[1;4mGaya huruf:[0m
+- Biasa
+- [1mTebal[0m
+- [2mRedup[0m
+- [3mMiring[0m
+- [4mGaris bawah[0m
+- [7mWarna terbalik[0m
+- [9mDicoret[0m
 ```
 
 ### Kerangka Kerja Editor dan Terminal
