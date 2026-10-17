@@ -27,9 +27,10 @@ console.log('Kode ini memiliki penyorotan sintaks!')
 
 #### Merender Urutan Escape ANSI
 
+
 ```ansi
 [1;4mWarna ANSI standar:[0m
-- Warna redup:     \x1b[2;30mHitam\x1b[2;31mMerah\x1b[2;32m Hijau [2;33m Kuning [2;34m Biru [2;35m Magenta [2;36m Cyan [2;37m Putih [0m
+- Warna redup:     [2;30m Hitam [2;31m Merah [2;32m Hijau [2;33m Kuning [2;34m Biru [2;35m Magenta [2;36m Cyan [2;37m Putih [0m
 - Latar Depan:     [30m Hitam [31m Merah [32m Hijau [33m Kuning [34m Biru [35m Magenta [36m Cyan [37m Putih [0m
 - Latar Belakang:  [40m Hitam [41m Merah [42m Hijau [43m Kuning [44m Biru [45m Magenta [46m Cyan [47m Putih [0m
 - Terbalik:        [7;30m Hitam [7;31m Merah [7;32m Hijau [7;33m Kuning [7;34m Biru [7;35m Magenta [7;36m Cyan [7;37m Putih 0m
