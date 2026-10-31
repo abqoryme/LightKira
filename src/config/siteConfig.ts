@@ -115,10 +115,10 @@ export const siteConfig: SiteConfig = {
 			type: "image",
 			value: "assets/images/logo/blacknote-light.png",
 			valueDark: "assets/images/logo/blacknote-dark.png",
-			alt: "🍀",
+			alt: "🍀🍂🌿🪴",
 		},
 		// 导航栏标题
-		title: "BlackNote Blog",
+		title: "BlackNote",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
