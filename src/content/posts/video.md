@@ -1,11 +1,11 @@
 ---
-title: 在文章中嵌入视频
+title: Embedding Videos in Articles
 published: 1970-01-01
-description: 这篇文章演示如何在博客文章中嵌入视频。
-tags: [示例, 视频, Firefly]
-category: 文章示例
+description: This article demonstrates how to embed a video in a blog post.
+tags: [Examples, Videos, Firefly]
+category: Sample
 slug: video
-series: "Firefly 功能示例"
+series: "Feature Examples"
 seriesOrder: 5
 ---
 
@@ -13,7 +13,7 @@ seriesOrder: 5
 
 ```yaml
 ---
-title: 在文章中嵌入视频
+title: Embedding Videos in Articles
 published: 2023-10-19
 // ...
 ---

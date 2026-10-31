@@ -1,8 +1,8 @@
 ---
-title: 草稿示例
+title: Draft Example
 published: 1970-01-01
-tags: [Markdown, 博客, 演示]
-category: 文章示例
+tags: [Markdown, Blog, Presentation]
+category: Sample
 draft: true
 slug: draft
 ---

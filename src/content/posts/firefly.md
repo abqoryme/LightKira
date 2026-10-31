@@ -1,19 +1,19 @@
 ---
-title: Firefly 一款清新美观的 Astro 博客主题模板
+title: Firefly A Fresh and Beautiful Astro Blog Theme Template
 published: 1970-01-02
 pinned: true
-description: Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
-tags: [Markdown, Firefly, 博客, 主题, 模板]
-category: 文章示例
+description: Firefly is a fresh, beautiful, and modern personal blog theme built on the Astro framework and the Fuwari template, designed specifically for tech enthusiasts and content creators. The theme incorporates a modern web technology stack, offering a wealth of feature modules and a highly customizable interface, allowing you to easily create a professional and visually appealing personal blog.
+tags: [Markdown, Firefly, Blog, Theme, Template]
+category: Sample
 image: ./images/firefly2.avif
 slug: firefly
-series: "Firefly 功能示例"
+series: "Feature Examples"
 seriesOrder: 4
 ---
 
 ## 🌟 项目概述
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+**Firefly** is a fresh, beautiful, and modern personal blog theme built on the Astro framework and the Fuwari template, designed specifically for tech enthusiasts and content creators. The theme incorporates a modern web technology stack, offering a wealth of feature modules and a highly customizable interface, allowing you to easily create a professional and visually appealing personal blog.
 
 
 **🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**

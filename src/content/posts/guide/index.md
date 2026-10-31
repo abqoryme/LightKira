@@ -1,12 +1,12 @@
 ---
-title: Firefly 简单使用指南
+title: Quick Start Guide
 published: 1970-01-02
 pinned: true
-description: "如何使用 Firefly 博客模板。"
+description: "How to Use the Firefly Blog Template."
 image: "./cover.avif"
-tags: ["Firefly", "博客", "Markdown", "指南"]
-category: 博客指南
-series: "Firefly 功能示例"
+tags: ["Firefly", "Blog", "Markdown", "Guide"]
+category: Guide
+series: "Feature Examples"
 seriesOrder: 1
 ---
 

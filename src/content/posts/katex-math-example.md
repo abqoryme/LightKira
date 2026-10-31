@@ -1,12 +1,12 @@
 ---
-title: KaTeX 数学公式示例
+title: KaTeX Math Formula Examples
 published: 1970-01-02
-description: 展示 Firefly 主题对 KaTeX 数学公式的支持，包括行内公式、块级公式和复杂数学符号。
-tags: [KaTeX, Math, 示例]
-category: 文章示例
+description: Demonstrates the blogs support for KaTeX mathematical formulas, including inline formulas, block-level formulas, and complex mathematical symbols.
+tags: [KaTeX, Math, Example]
+category: Sample
 image: api
 slug: katex-math-example
-series: "Firefly 功能示例2"
+series: "Feature Example 2"
 seriesOrder: 6
 ---
 

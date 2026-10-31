@@ -1,12 +1,12 @@
 ---
-title: Markdown Mermaid 图表
+title: Markdown Mermaid Charts
 published: 1970-01-01
 pinned: false
-description: 一个包含 Mermaid 的 Markdown 博客文章简单示例。
-tags: [Markdown, 博客, Mermaid, Firefly]
-category: 文章示例
+description: A simple example of a Markdown blog post that includes Mermaid.
+tags: [Markdown, Blog, Mermaid, Firefly]
+category: Sample
 slug: markdown-mermaid
-series: "Firefly 功能示例2"
+series: "Feature Example 2"
 seriesOrder: 3
 ---
 ## Markdown 中 Mermaid 图表完整指南

@@ -1,12 +1,12 @@
 ---
-title: Firefly Wiki Link 内部链接示例
+title: Wiki Link Example of an Internal Link
 published: 1970-01-03
-description: 在 Firefly 文章中使用 Obsidian 风格的 Wiki Link 内部链接，并自动生成文章链接卡片。
+description: Use Obsidian-style Wiki Links for internal links in articles, and automatically generate article link cards.
 image: ""
-tags: [Markdown, Obsidian, Wiki-Link, 文章示例]
-category: 博客指南
+tags: [Markdown, Obsidian, Wiki-Link, Sample]
+category: Guide
 slug: guide/firefly-wiki-link
-series: "Firefly 功能示例"
+series: "Feature Examples"
 seriesOrder: 3
 ---
 
