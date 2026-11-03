@@ -48,6 +48,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
+				name: "Waltzing In The Rain",
+				artist: "Vincent Diamante",
+				url: "/assets/music/Waltzing-in-the-Rain_009.mp3",
+				cover: "/assets/music/cover/ab67616d0000b27369c8c8e1962a6b1c3ba5b722.webp",
+				lrc: "",
+			},
+			{
 				name: "使一颗心免于哀伤",
 				artist: "知更鸟 / HOYO-MiX / Chevy",
 				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
