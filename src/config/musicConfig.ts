@@ -61,6 +61,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
+			{
+				name: "Roman Picisan",
+				artist: "Dewa 19",
+				url: "/assets/music/Roman Picisan.mp3",
+				cover: "/assets/music/cover/238cd83888133038cae8c017e66025ea.webp",
+				lrc: "/assets/music/lrc/Roman Picisan.lrc",
+			},
 		],
 	},
 };
