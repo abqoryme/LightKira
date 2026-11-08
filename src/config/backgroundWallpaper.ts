@@ -73,17 +73,17 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "BlackNote Rest!",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"Even Just Remembering You Makes Me Feel Better, Let Alone Being With You",
+				"No Matter How People Look At You, You Don't Live For Others, You Live For Yourself",
+				"Learn From The Twilight That What Looks Beautiful Does Not Necessarily Last Long",
+				"Your Role Is Only As A Servant, Yet Your Behavior Is Already Like The Creator",
+				"I Missed You More Than I Ever Admitted",
+				"Teach Your Heart to Accept Disappointment, Even from the One You Love",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -118,7 +118,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				{
 					name: "Sponsor",
 					icon: "material-symbols:favorite",
-					url: "https://blog.cuteleaf.cn/sponsor/",
+					url: "https://blogs.abqory.is-a.dev/sponsor/",
 				},
 				{
 					name: "RSS",
