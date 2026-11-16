@@ -10,7 +10,7 @@ slug: belajar
 series: "Metode Agile 01"
 seriesOrder: 1
 ---
-![https://www.greatnusa.com]
+![https://www.greatnusa.com](Thumbnail By)
 
 Oke, hallo semua. Selamat pagi, siang, sore, atau malam. Bagaimana kabar kalian?? (Kalian bisa menjawab kabar kalian di kolom komentar yah) Dari saya semoga kita semua sehat dan selalu bahagia. Aamiin... 😁
 
@@ -128,6 +128,8 @@ Pada akhirnya, keberhasilan sebuah proyek bukan hanya diukur dari seberapa cangg
 
 Plot twist-nya: niat awalnya cuma bikin website HIMASIF, eh malah dapat pengalaman praktik Agile sekaligus bahan tulisan akademis. ahahaha 🤣
 
-Mungkin segitu saja pengalaman yang bisa saya berikan, Terima Kasih telah membaca 🙏🏻.
+Mungkin segitu saja pengalaman yang bisa saya berikan, Terima Kasih telah membaca 🙏🏻.
 
-[34mSee you next pages, dari saya Abqory, [44m ADIOSS...!!! ✈️[0m
+```ansi
+[34mSee you next pages, dari saya Abqory, [44m ADIOSS...!!! ✈️[0m
+```
