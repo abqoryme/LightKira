@@ -7,7 +7,7 @@ tags: [Markdown]
 category: Belajar Metode
 image: ./images/thumb_agile.avif
 slug: belajar-metode-agile
-series: "Metode Metodologi Pengembangan Perangkat Lunak (SDLC)"
+series: "Metodologi Pengembangan Perangkat Lunak (SDLC)"
 seriesOrder: 1
 ---
 ![https://www.greatnusa.com](./images/agile.avif)
