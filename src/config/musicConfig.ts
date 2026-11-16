@@ -62,6 +62,20 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				lrc: "",
 			},
 			{
+				name: "SOUND-DONGHUA-TERI-MERI-STYLE-BOLLYWOOD",
+				artist: "Rahat Fateh Ali Khan / Shreya Ghoshal / @furinyete",
+				url: "/assets/music/SOUND-DONGHUA-TERI-MERI-STYLE-BOLLYWOOD.mp3",
+				cover: "/assets/music/cover/SOUND-DONGHUA-TERI-MERI-STYLE-BOLLYWOOD.webp",
+				lrc: "",
+			},
+			{
+				name: "Carol Of The Bells",
+				artist: "Lindsey Stirling",
+				url: "/assets/music/Carol-of-the-Bells.mp3",
+				cover: "/assets/music/cover/Carol-of-the-Bells.webp",
+				lrc: "",
+			},
+			{
 				name: "Roman Picisan",
 				artist: "Dewa 19",
 				url: "/assets/music/Roman Picisan.mp3",
