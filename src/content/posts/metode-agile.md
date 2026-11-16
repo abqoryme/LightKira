@@ -5,7 +5,7 @@ pinned: false
 description: Penjelasan dan penggunaan metode Agile.
 tags: [Markdown]
 category: Belajar Metode
-image: ./images/agile.avif
+image: ./images/thumb_agile.avif
 slug: belajar
 series: "Metode Agile 01"
 seriesOrder: 1
