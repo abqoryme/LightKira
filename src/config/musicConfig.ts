@@ -72,7 +72,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				name: "Carol Of The Bells",
 				artist: "Lindsey Stirling",
 				url: "/assets/music/Carol-of-the-Bells.mp3",
-				cover: "/assets/music/cover/Carol-of-the-Bells.webp",
+				cover: "/assets/music/cover/images.webp",
 				lrc: "",
 			},
 			{
