@@ -6,8 +6,8 @@ description: Penjelasan dan penggunaan metode Agile.
 tags: [Markdown]
 category: Belajar Metode
 image: ./images/thumb_agile.avif
-slug: belajar
-series: "Metode Agile 01"
+slug: belajar-metode-agile
+series: "Metode Metodologi Pengembangan Perangkat Lunak (SDLC)"
 seriesOrder: 1
 ---
 ![https://www.greatnusa.com](./images/agile.avif)
@@ -130,4 +130,4 @@ Plot twist-nya: niat awalnya cuma bikin website HIMASIF, eh malah dapat pengalam
 
 Mungkin segitu saja pengalaman yang bisa saya berikan, Terima Kasih telah membaca 🙏🏻.
 
-See you next pages, dari saya Abqory, ADIOSS...!!! ✈️
+See you next pages, dari saya Abqory, ADIOSS...!!! 🛩️
