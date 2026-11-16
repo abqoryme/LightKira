@@ -10,6 +10,7 @@ slug: belajar
 series: "Metode Agile 01"
 seriesOrder: 1
 ---
+![https://www.greatnusa.com]
 
 Oke, hallo semua. Selamat pagi, siang, sore, atau malam. Bagaimana kabar kalian?? (Kalian bisa menjawab kabar kalian di kolom komentar yah) Dari saya semoga kita semua sehat dan selalu bahagia. Aamiin... 😁
 
@@ -73,7 +74,7 @@ Dalam waktu singkat di sela-sela liburan itu, mereka berhasil merangkum masa dep
 
 Sumber: [Agile Manifesto](https://agilemanifesto.org/principles.html)
 
-Kerennya pertemuan tersebut tidak langsung bubar tanpa bekas.**Ward Cunningham** segera membuat situs web resmi [agilemanifesto.org](https://agilemanifesto.org) agar publik bisa membaca dokumen tersebut dan ikut menandatanganinya secara digital. Di tahun yang sama juga mereka bahkan membentuk organisasi nirlaba yang bernama [Agile Alliance](https://agilealliance.org).
+Kerennya pertemuan tersebut tidak langsung bubar tanpa bekas. **Ward Cunningham** segera membuat situs web resmi [agilemanifesto.org](https://agilemanifesto.org) agar publik bisa membaca dokumen tersebut dan ikut menandatanganinya secara digital. Di tahun yang sama juga mereka bahkan membentuk organisasi nirlaba yang bernama [Agile Alliance](https://agilealliance.org).
 
 Siapa sangka, coretan pemikiran dari 17 orang yang sedang berlibur ski di Utah itu pada akhirnya tidak hanya mengubah industri teknologi informasi, melainkan diadopsi secara global oleh berbagai jenis manajemen proyek di dunia bisnis modern hingga saat ini, gokil banget... 🥶
 
@@ -97,7 +98,7 @@ Website ini dikembangkan dengan beberapa bagian utama, di antaranya:
 - Struktur Kepengurusan: Memperkenalkan susunan kepengurusan dan divisi.
 - Galeri: Mendokumentasikan berbagai kegiatan dan aktivitas HIMASIF.
 
-Dalam proses pengembangannya, dan kebetulan penulis ditunjuk peran oleh *Ketua Departemen* sebagai Project Manager (PM), yaitu mengoordinasikan pekerjaan, mengatur prioritas pengembangan, serta memastikan setiap bagian proyek berjalan sesuai dengan tujuan yang telah ditentukan.
+Dalam proses pengembangannya, dan kebetulan penulis ditunjuk peran oleh **Ketua Departemen** sebagai Project Manager (PM), yaitu mengoordinasikan pekerjaan, mengatur prioritas pengembangan, serta memastikan setiap bagian proyek berjalan sesuai dengan tujuan yang telah ditentukan.
 
 Proyek ini kemudian menjadi bahan refleksi untuk memahami bagaimana prinsip-prinsip Agile dapat diterapkan dalam pengembangan perangkat lunak, khususnya dalam menghadapi perubahan kebutuhan dan mengelola pekerjaan secara bertahap.
 
@@ -105,9 +106,9 @@ Baiklah ini saatnya... 😹
 
 #### Projek Website Yang Menggunakan Prinsip dan Nilai Agile
 
-Tahap awal dimulai dengan membentuk *Tim Developer* yang terdiri dari teman-teman anggota *Departemen Akaristek*. Setelah terbentuk, kami mulai membuat rancangan website yang bisa dikatakan sebagai sample untuk bahan diskusi dan gambaran kasar, setelah selesai membuat desain atau prototype yang menurut kami cukup, maka *Tim Developer* melakukan diskusi dengan seluruh anggota *HIMASIF*, dalam nilai Agile, ini disebut *Collaboration* atau Kolaborasi yang dilakukan secara bersama untuk menghasilkan ide, referensi dan masukan sejak awal. Harapannya, website yang dikembangkan tidak hanya memenuhi kebutuhan organisasi, tetapi juga dapat diterima dan memberikan manfaat bagi seluruh anggota HIMASIF.
+Tahap awal dimulai dengan membentuk **Tim Developer** yang terdiri dari teman-teman anggota **Departemen Akaristek**. Setelah terbentuk, kami mulai membuat rancangan website yang bisa dikatakan sebagai sample untuk bahan diskusi dan gambaran kasar, setelah selesai membuat desain atau prototype yang menurut kami cukup, maka **Tim Developer** melakukan diskusi dengan seluruh anggota **HIMASIF**, dalam nilai Agile, ini disebut **Collaboration** atau Kolaborasi yang dilakukan secara bersama untuk menghasilkan ide, referensi dan masukan sejak awal. Harapannya, website yang dikembangkan tidak hanya memenuhi kebutuhan organisasi, tetapi juga dapat diterima dan memberikan manfaat bagi seluruh anggota HIMASIF.
 
-Setelah mendapatkan dan mengumpulkan berbagai masukan, ide, dan referensi saya mulai melakukan pembagian tugas dan hal-hal yang perlu diperbaiki dengan pembagian sesuai skill yang dimiliki *Anggota Tim Dev*.
+Setelah mendapatkan dan mengumpulkan berbagai masukan, ide, dan referensi saya mulai melakukan pembagian tugas dan hal-hal yang perlu diperbaiki dengan pembagian sesuai skill yang dimiliki **Anggota Tim Dev**.
 
 Setelah pembagian tugas dilakukan, proses pengembangan mulai berjalan secara bertahap. Setiap anggota Tim Developer bertanggung jawab terhadap bagian yang telah disepakati berdasarkan kemampuan dan bidang masing-masing. Dalam proses ini, saya berusaha memastikan bahwa setiap anggota memahami tugasnya serta memiliki ruang untuk menyampaikan pendapat apabila menemukan kendala atau memiliki ide lain yang dapat dikembangkan.
 
@@ -117,7 +118,7 @@ Setelah beberapa bagian website berhasil dikerjakan, kami mulai menampilkan hasi
 
 Kami membuka diskusi lagi untuk hasil akhir agar sesuai kesepakatan bersama dan menerima saran, kritik, dan ide lainnya. Akhirnya beberapa bagian kembali mengalami perbaikan, mulai dari tampilan halaman, susunan menu navigasi, penggunaan gambar, hingga informasi yang ditampilkan. Proses ini terus dilakukan secara bertahap, sehingga hasil pengembangan dapat berkembang mengikuti masukan yang diterima.
 
-Setelah selesai melakukan berbagai perbaikan, akhirnya semuanya sepakat untuk merilis website ini, kami *Tim Developer* mulai membangun final projek dengan menggunakan *Laravel*.
+Setelah selesai melakukan berbagai perbaikan, akhirnya semuanya sepakat untuk merilis website ini, kami **Tim Developer** mulai membangun final projek dengan menggunakan **Laravel**.
 
 Jika dikaitkan dengan Agile, kegiatan tersebut memiliki kesesuaian dengan prinsip Continuous Feedback (umpan balik berkelanjutan) dan Responding to Change (menanggapi perubahan). Artinya, pengembangan tidak berhenti pada rancangan awal, tetapi terus disesuaikan berdasarkan hasil evaluasi dan kebutuhan yang ditemukan selama proses pengerjaan.
 
@@ -127,6 +128,6 @@ Pada akhirnya, keberhasilan sebuah proyek bukan hanya diukur dari seberapa cangg
 
 Plot twist-nya: niat awalnya cuma bikin website HIMASIF, eh malah dapat pengalaman praktik Agile sekaligus bahan tulisan akademis. ahahaha 🤣
 
-Mungkin segitu saja pengalaman yang bisa saya berikan. [34m See you next pages, dari saya Abqory, [44m ADIOSS...!!! ✈️
+Mungkin segitu saja pengalaman yang bisa saya berikan, Terima Kasih telah membaca 🙏🏻.
 
-Thumbnail by : https://www.greatnusa.com
+[34mSee you next pages, dari saya Abqory, [44m ADIOSS...!!! ✈️[0m
