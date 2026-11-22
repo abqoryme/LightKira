@@ -125,22 +125,22 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 		items: [
 			{
 				icon: "mdi:home",
-				label: "返回主页",
+				label: "Back to the homepage",
 				action: "home",
 			},
 			{
 				icon: "mdi:arrow-up",
-				label: "返回顶部",
+				label: "Back to top",
 				action: "scrollToTop",
 			},
 			{
 				icon: "mdi:bed",
-				label: "休眠",
+				label: "Sleep",
 				action: "sleep",
 			},
 			{
 				icon: "mdi:swap-horizontal",
-				label: "切换模型",
+				label: "Switch model",
 				action: "switchModel",
 			},
 			{
@@ -157,13 +157,13 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 		// 气泡开关
 		enable: true,
 		// 初始欢迎消息
-		welcomeMessage: ["你好呀！", "欢迎来到我的世界！"],
+		welcomeMessage: ["Hello there！", "Welcome to my world！"],
 		// 循环提示内容
 		messages: [
-			"有什么需要帮助的吗？",
-			"今天天气真不错呢！",
-			"要不要一起玩游戏？",
-			"记得按时休息哦！",
+			"Ada yang bisa aku bantu?",
+			"Cuacanya benar-benar indah hari ini, bukan?",
+			"Mau main game bareng?",
+			"Jangan lupa istirahat tepat waktu, ya!",
 		],
 		// 文字显示时间（ms）
 		duration: 3000,
